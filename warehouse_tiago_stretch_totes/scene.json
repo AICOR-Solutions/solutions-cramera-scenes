@@ -850,7 +850,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 2920,
+          "end": 3269
         },
         {
           "id": "plan_node_134834457982016",
@@ -899,7 +901,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 3270,
+          "end": 4035
         },
         {
           "id": "plan_node_134834456148400",
@@ -948,7 +952,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 4036,
+          "end": 4153
         },
         {
           "id": "plan_node_134834456434096",
@@ -1120,7 +1126,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 4154,
+          "end": 7382
         },
         {
           "id": "plan_node_134834458272224",
@@ -1169,7 +1177,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 7383,
+          "end": 7433
         },
         {
           "id": "plan_node_134834456342224",
@@ -1218,7 +1228,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 7434,
+          "end": 7503
         },
         {
           "id": "plan_node_134834456338768",
@@ -1267,7 +1279,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 7504,
+          "end": 7621
         },
         {
           "id": "plan_node_134834456337904",
@@ -1316,7 +1330,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 7622,
+          "end": 8324
         },
         {
           "id": "plan_node_134834477676160",
@@ -1365,7 +1381,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 8325,
+          "end": 8442
         },
         {
           "id": "plan_node_134834477678128",
@@ -1475,7 +1493,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 8443,
+          "end": 9810
         },
         {
           "id": "plan_node_134834454563584",
@@ -1524,7 +1544,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 9811,
+          "end": 9875
         },
         {
           "id": "plan_node_134834477670160",
@@ -1573,9 +1595,14 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 9876,
+          "end": 9970
         }
-      ]
+      ],
+      "start": 2920,
+      "end": 9970,
+      "robot": "Stretch"
     }
   ],
   "semanticAnnotations": {

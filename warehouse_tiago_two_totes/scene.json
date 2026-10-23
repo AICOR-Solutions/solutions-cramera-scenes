@@ -859,7 +859,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 1,
+          "end": 105
         },
         {
           "id": "plan_node_124008013939632",
@@ -908,7 +910,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 106,
+          "end": 826
         },
         {
           "id": "plan_node_124008041265680",
@@ -957,7 +961,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 827,
+          "end": 945
         },
         {
           "id": "plan_node_124008050897168",
@@ -1129,7 +1135,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 946,
+          "end": 1111
         },
         {
           "id": "plan_node_124008012144784",
@@ -1301,7 +1309,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 1112,
+          "end": 1301
         },
         {
           "id": "plan_node_124008051652848",
@@ -1350,7 +1360,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 1302,
+          "end": 1416
         },
         {
           "id": "plan_node_124008051640464",
@@ -1399,7 +1411,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 1417,
+          "end": 2132
         },
         {
           "id": "plan_node_124008051642000",
@@ -1448,7 +1462,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 2133,
+          "end": 2195
         },
         {
           "id": "plan_node_124008016905088",
@@ -1497,7 +1513,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 2196,
+          "end": 2326
         },
         {
           "id": "plan_node_124008027640304",
@@ -1607,7 +1625,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 2327,
+          "end": 2480
         },
         {
           "id": "plan_node_124008027647408",
@@ -1717,7 +1737,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 2481,
+          "end": 2736
         },
         {
           "id": "plan_node_124008027649952",
@@ -1766,7 +1788,9 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 2737,
+          "end": 2822
         },
         {
           "id": "plan_node_124008027966928",
@@ -1815,9 +1839,14 @@
               "target": null,
               "children": []
             }
-          ]
+          ],
+          "start": 2823,
+          "end": 2918
         }
-      ]
+      ],
+      "start": 1,
+      "end": 2918,
+      "robot": "Tiago"
     }
   ],
   "semanticAnnotations": {
