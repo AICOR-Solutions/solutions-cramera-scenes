@@ -1,0 +1,126 @@
+{
+ "source": "/home/vee/Documents/LabAutomationTwin/scenes/lab_twin.usda",
+ "converter": "26.07.0",
+ "readSeconds": 2.667,
+ "writeSeconds": 9.775,
+ "bundleBytes": 80491443,
+ "counts": {
+  "disabledJoints": 0,
+  "instanceProxies": 0,
+  "joints.fixed": 120,
+  "joints.prismatic": 21,
+  "joints.revolute": 8,
+  "lights": 46,
+  "links": 150,
+  "materials": 977,
+  "meshes": 1581,
+  "prims": 17460,
+  "semanticPrims": 1000,
+  "triangles": 1809300
+ },
+ "skipped": {
+  "guide purpose": 605,
+  "invisible": 80
+ },
+ "skippedExamples": {
+  "guide purpose": [
+   "/World/Cell01/Architecture/Floor",
+   "/World/Cell01/Architecture/Enclosure_E01/Collision/Box001/Box",
+   "/World/Cell01/Architecture/Enclosure_E01/Collision/Box002/Box",
+   "/World/Cell01/Architecture/Enclosure_E01/Collision/Box003/Box",
+   "/World/Cell01/Architecture/Enclosure_E01/Collision/Box004/Box"
+  ],
+  "invisible": [
+   "/World/ExperimentalWorld/Plates/Plate_P17/Wells/A01/Physical/Organoid",
+   "/World/ExperimentalWorld/Plates/Plate_P17/Wells/A02/Physical/Organoid",
+   "/World/ExperimentalWorld/Plates/Plate_P17/Wells/A05/Physical/Organoid",
+   "/World/ExperimentalWorld/Plates/Plate_P17/Wells/A06/Physical/Organoid",
+   "/World/ExperimentalWorld/Plates/Plate_P17/Wells/A07/Physical/Organoid"
+  ]
+ },
+ "excluded": [
+  {
+   "path": "/World/Cell01/Robots/R03_SampleAMR",
+   "reason": "requested"
+  }
+ ],
+ "detached": [],
+ "articulations": [
+  {
+   "path": "/World/Cell01/Architecture/Enclosure_E01/Doors/D1_Front",
+   "movableJoints": [
+    "/World/Cell01/Architecture/Enclosure_E01/Doors/D1_Front/Joints/Hinge"
+   ]
+  },
+  {
+   "path": "/World/Cell01/Architecture/Enclosure_E01/Doors/D2_RearWest",
+   "movableJoints": [
+    "/World/Cell01/Architecture/Enclosure_E01/Doors/D2_RearWest/Joints/Hinge"
+   ]
+  },
+  {
+   "path": "/World/Cell01/Architecture/Enclosure_E01/Doors/D3_RearEast",
+   "movableJoints": [
+    "/World/Cell01/Architecture/Enclosure_E01/Doors/D3_RearEast/Joints/Hinge"
+   ]
+  },
+  {
+   "path": "/World/Cell01/Stations/L09_PlateHotel",
+   "movableJoints": [
+    "/World/Cell01/Stations/L09_PlateHotel/Joints/GateSlide",
+    "/World/Cell01/Stations/L09_PlateHotel/Joints/ShuttleSlide",
+    "/World/Cell01/Stations/L09_PlateHotel/Joints/LiftSlide",
+    "/World/Cell01/Stations/L09_PlateHotel/Joints/ForkSlide",
+    "/World/Cell01/Stations/L09_PlateHotel/Joints/ServiceDoorHinge"
+   ]
+  },
+  {
+   "path": "/World/Cell01/Stations/L10_Incubator",
+   "movableJoints": [
+    "/World/Cell01/Stations/L10_Incubator/Joints/GateSlide",
+    "/World/Cell01/Stations/L10_Incubator/Joints/ShuttleSlide",
+    "/World/Cell01/Stations/L10_Incubator/Joints/LiftSlide",
+    "/World/Cell01/Stations/L10_Incubator/Joints/ForkSlide",
+    "/World/Cell01/Stations/L10_Incubator/Joints/ServiceDoorHinge"
+   ]
+  },
+  {
+   "path": "/World/Cell01/Stations/L12_LiquidHandler",
+   "movableJoints": [
+    "/World/Cell01/Stations/L12_LiquidHandler/Joints/GantryXSlide",
+    "/World/Cell01/Stations/L12_LiquidHandler/Joints/GantryYSlide",
+    "/World/Cell01/Stations/L12_LiquidHandler/Joints/ChannelZSlide"
+   ]
+  },
+  {
+   "path": "/World/Cell01/Stations/L17_BrightFieldImager",
+   "movableJoints": [
+    "/World/Cell01/Stations/L17_BrightFieldImager/Joints/GateSlide",
+    "/World/Cell01/Stations/L17_BrightFieldImager/Joints/StageY",
+    "/World/Cell01/Stations/L17_BrightFieldImager/Joints/StageX",
+    "/World/Cell01/Stations/L17_BrightFieldImager/Joints/FocusZ",
+    "/World/Cell01/Stations/L17_BrightFieldImager/Joints/TurretRotate"
+   ]
+  },
+  {
+   "path": "/World/Cell01/Stations/H4_Quarantine",
+   "movableJoints": [
+    "/World/Cell01/Stations/H4_Quarantine/Controls/DoorButton/button_joint",
+    "/World/Cell01/Stations/H4_Quarantine/Controls/KeySwitch/key_joint",
+    "/World/Cell01/Stations/H4_Quarantine/Joints/DoorHinge",
+    "/World/Cell01/Stations/H4_Quarantine/Joints/LatchSlide",
+    "/World/Cell01/Stations/H4_Quarantine/Joints/ShuttleSlide"
+   ]
+  },
+  {
+   "path": "/World/AICOR_Lab/Building/Doors/ST01_Sliding",
+   "movableJoints": [
+    "/World/AICOR_Lab/Building/Doors/ST01_Sliding/Joints/Slide"
+   ]
+  }
+ ],
+ "unmappedInputs": {},
+ "missingTextures": [],
+ "warnings": [],
+ "animation": null
+}

@@ -1,0 +1,42 @@
+{
+ "formatVersion": "0.0",
+ "default": "warehouse_tiago_two_totes",
+ "scenes": [
+  {
+   "name": "aicor_lab",
+   "robot": "",
+   "environment": "AICOR Lab Automation Twin",
+   "task": "Lab hall and Cell 01 (environment)"
+  },
+  {
+   "name": "aicor_lab_r01",
+   "robot": "fr3",
+   "environment": "AICOR Lab Automation Twin",
+   "task": "R01 demo cycle: L09 - HN - H4 - L09"
+  },
+  {
+   "name": "warehouse",
+   "robot": "",
+   "environment": "Small Warehouse Twin",
+   "task": "Warehouse hall (environment)"
+  },
+  {
+   "name": "warehouse_tiago_two_totes",
+   "robot": "tiago",
+   "environment": "Small Warehouse Twin",
+   "task": "TIAGo: A08 + A09 -> packing station in-feed (B00, B01)"
+  },
+  {
+   "name": "warehouse_tiago_stretch_totes",
+   "robot": "stretch",
+   "environment": "Small Warehouse Twin",
+   "task": "TIAGo: A08 + A09 -> in-feed (B00, B01); Stretch: R01 -> A10"
+  },
+  {
+   "name": "warehouse_tiago_plan_steps",
+   "robot": "tiago",
+   "environment": "Small Warehouse Twin",
+   "task": "TIAGo: park, torso up, drive, torso down, drive back, park"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "source": "/home/vee/Documents/WarehouseTwin/scenes/warehouse.usda",
+ "converter": "26.07.0",
+ "readSeconds": 13.227,
+ "writeSeconds": 0.652,
+ "bundleBytes": 210209982,
+ "counts": {
+  "collisions": 2900,
+  "disabledJoints": 0,
+  "instanceProxies": 443543,
+  "joints.fixed": 767,
+  "lights": 14,
+  "links": 768,
+  "materials": 3702,
+  "meshes": 3887,
+  "prims": 491053,
+  "semanticPrims": 796,
+  "triangles": 822160
+ },
+ "skipped": {
+  "guide purpose": 2904
+ },
+ "skippedExamples": {
+  "guide purpose": [
+   "/World/Site/Hall/Collision/Floor/Box",
+   "/World/Site/Hall/Collision/WallS/Box",
+   "/World/Site/Hall/Collision/WallN/Box",
+   "/World/Site/Hall/Collision/WallW/Box",
+   "/World/Site/Hall/Collision/WallE/Box"
+  ]
+ },
+ "excluded": [
+  {
+   "path": "/World/Site/Roof",
+   "reason": "requested"
+  },
+  {
+   "path": "/World/Robots/TIAGo",
+   "reason": "Isaac robot schema"
+  },
+  {
+   "path": "/World/Robots/Stretch",
+   "reason": "Isaac robot schema"
+  }
+ ],
+ "detached": [],
+ "articulations": [],
+ "unmappedInputs": {},
+ "missingTextures": [],
+ "warnings": [],
+ "animation": null
+}

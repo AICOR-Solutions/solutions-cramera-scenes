@@ -1,0 +1,4216 @@
+{
+ "name": "warehouse",
+ "environmentName": "Small Warehouse Twin",
+ "task": "Warehouse hall (environment)",
+ "framesPerSecond": 1.0,
+ "trajectory": "trajectory.json",
+ "rendering": {
+  "ambientOcclusion": false,
+  "exposure": 0.72,
+  "groundPlane": false,
+  "shadowBounds": [
+   [
+    1.0225,
+    2.854,
+    0.0009
+   ],
+   [
+    19.8167,
+    14.5294,
+    3.836
+   ]
+  ],
+  "environment": "lighting.json"
+ },
+ "camera": {
+  "position": [
+   1.5,
+   1.2,
+   1.7
+  ],
+  "target": [
+   12.0,
+   9.5,
+   1.6
+  ],
+  "fov": 70.22,
+  "far": 157.41
+ },
+ "models": [
+  {
+   "name": "environment",
+   "urdf": "environment.urdf",
+   "prefix": "",
+   "robot": false,
+   "links": 715,
+   "movableJoints": [],
+   "preserveMaterials": true
+  }
+ ],
+ "robot": null,
+ "objects": [
+  {
+   "id": "A00",
+   "key": "A00",
+   "mesh": "meshes/objects/A00.glb",
+   "spawn": [
+    6.34,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/A00/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A00/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A00/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A00/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A00/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A00/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A00/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A00/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A00/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A00/Goods0/Collision/Cylinder",
+     "size": [
+      0.065,
+      0.2165,
+      0.065
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.036,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A01",
+   "key": "A01",
+   "mesh": "meshes/objects/A01.glb",
+   "spawn": [
+    6.79,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/A01/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A01/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A01/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A01/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A01/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A01/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A01/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A01/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A01/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A01/Goods0/Collision/Cylinder",
+     "size": [
+      0.065,
+      0.2165,
+      0.065
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.036,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A02",
+   "key": "A02",
+   "mesh": "meshes/objects/A02.glb",
+   "spawn": [
+    7.239999999999999,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/A02/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A02/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A02/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A02/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A02/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A02/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A02/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A02/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A02/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A02/Goods0/Collision/Cylinder",
+     "size": [
+      0.065,
+      0.2165,
+      0.065
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.036,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A03",
+   "key": "A03",
+   "mesh": "meshes/objects/A03.glb",
+   "spawn": [
+    7.6899999999999995,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/A03/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A03/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A03/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A03/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A03/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A03/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A03/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A03/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A03/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A03/Goods0/Collision/Cylinder",
+     "size": [
+      0.066,
+      0.066,
+      0.1152
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0611,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A04",
+   "key": "A04",
+   "mesh": "meshes/objects/A04.glb",
+   "spawn": [
+    8.37,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/A04/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A04/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A04/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A04/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A04/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A04/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A04/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A04/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A04/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A04/Goods0/Collision/Cylinder",
+     "size": [
+      0.066,
+      0.066,
+      0.1152
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0611,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A05",
+   "key": "A05",
+   "mesh": "meshes/objects/A05.glb",
+   "spawn": [
+    8.82,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/A05/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A05/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A05/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A05/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A05/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A05/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A05/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A05/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A05/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A05/Goods0/Collision/Cylinder",
+     "size": [
+      0.066,
+      0.066,
+      0.1152
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0611,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A06",
+   "key": "A06",
+   "mesh": "meshes/objects/A06.glb",
+   "spawn": [
+    9.27,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/A06/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A06/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A06/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A06/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A06/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A06/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A06/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A06/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A06/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A06/Goods0/Collision/Box001/Box",
+     "size": [
+      0.087,
+      0.126,
+      0.1185
+     ],
+     "pose": [
+      0.0,
+      -0.06075,
+      0.06275,
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ]
+    },
+    {
+     "path": "/World/Totes/A06/Goods1/Collision/Box001/Box",
+     "size": [
+      0.087,
+      0.126,
+      0.1185
+     ],
+     "pose": [
+      0.0,
+      0.06075,
+      0.06275,
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A07",
+   "key": "A07",
+   "mesh": "meshes/objects/A07.glb",
+   "spawn": [
+    9.72,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/A07/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A07/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A07/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A07/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A07/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A07/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A07/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A07/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A07/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A07/Goods0/Collision/Box001/Box",
+     "size": [
+      0.087,
+      0.126,
+      0.1185
+     ],
+     "pose": [
+      0.0,
+      -0.06075,
+      0.06275,
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ]
+    },
+    {
+     "path": "/World/Totes/A07/Goods1/Collision/Box001/Box",
+     "size": [
+      0.087,
+      0.126,
+      0.1185
+     ],
+     "pose": [
+      0.0,
+      0.06075,
+      0.06275,
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A08",
+   "key": "A08",
+   "mesh": "meshes/objects/A08.glb",
+   "spawn": [
+    10.399999999999999,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/A08/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A08/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A08/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A08/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A08/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A08/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A08/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A08/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A08/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A08/Goods0/Collision/Box001/Box",
+     "size": [
+      0.087,
+      0.126,
+      0.1185
+     ],
+     "pose": [
+      0.0,
+      -0.06075,
+      0.06275,
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ]
+    },
+    {
+     "path": "/World/Totes/A08/Goods1/Collision/Box001/Box",
+     "size": [
+      0.087,
+      0.126,
+      0.1185
+     ],
+     "pose": [
+      0.0,
+      0.06075,
+      0.06275,
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A09",
+   "key": "A09",
+   "mesh": "meshes/objects/A09.glb",
+   "spawn": [
+    10.85,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/A09/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A09/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A09/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A09/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A09/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A09/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A09/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A09/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A09/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/A09/Goods0/Collision/Box001/Box",
+     "size": [
+      0.233,
+      0.11,
+      0.07
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0385,
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B00",
+   "key": "B00",
+   "mesh": "meshes/objects/B00.glb",
+   "spawn": [
+    15.5,
+    3.86,
+    0.4,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/B00/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/B00/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/B00/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/B00/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/B00/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/B00/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/B00/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/B00/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/B00/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/B00/Goods0/Collision/Box001/Box",
+     "size": [
+      0.233,
+      0.11,
+      0.07
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0385,
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R00",
+   "key": "R00",
+   "mesh": "meshes/objects/R00.glb",
+   "spawn": [
+    6.34,
+    7.2299999999999995,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/R00/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R00/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R00/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R00/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R00/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R00/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R00/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R00/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R00/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R00/Goods0/Collision/Cylinder",
+     "size": [
+      0.065,
+      0.2165,
+      0.065
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.036,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R01",
+   "key": "R01",
+   "mesh": "meshes/objects/R01.glb",
+   "spawn": [
+    6.79,
+    7.2299999999999995,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/R01/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R01/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R01/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R01/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R01/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R01/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R01/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R01/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R01/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R01/Goods0/Collision/Cylinder",
+     "size": [
+      0.066,
+      0.066,
+      0.1152
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0611,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R02",
+   "key": "R02",
+   "mesh": "meshes/objects/R02.glb",
+   "spawn": [
+    7.239999999999999,
+    7.2299999999999995,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/R02/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R02/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R02/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R02/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R02/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R02/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R02/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R02/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R02/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R02/Goods0/Collision/Box001/Box",
+     "size": [
+      0.087,
+      0.126,
+      0.1185
+     ],
+     "pose": [
+      0.0,
+      -0.06075,
+      0.06275,
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ]
+    },
+    {
+     "path": "/World/Totes/R02/Goods1/Collision/Box001/Box",
+     "size": [
+      0.087,
+      0.126,
+      0.1185
+     ],
+     "pose": [
+      0.0,
+      0.06075,
+      0.06275,
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R04",
+   "key": "R04",
+   "mesh": "meshes/objects/R04.glb",
+   "spawn": [
+    8.37,
+    7.2299999999999995,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/R04/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R04/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R04/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R04/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R04/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R04/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R04/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R04/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R04/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R04/Goods0/Collision/Cylinder",
+     "size": [
+      0.103,
+      0.103,
+      0.048
+     ],
+     "pose": [
+      0.0,
+      -0.06075,
+      0.0275,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R04/Goods1/Collision/Cylinder",
+     "size": [
+      0.103,
+      0.103,
+      0.048
+     ],
+     "pose": [
+      0.0,
+      0.06075,
+      0.0275,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R04/Goods2/Collision/Cylinder",
+     "size": [
+      0.103,
+      0.103,
+      0.048
+     ],
+     "pose": [
+      0.0,
+      -0.06075,
+      0.0755,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R04/Goods3/Collision/Cylinder",
+     "size": [
+      0.103,
+      0.103,
+      0.048
+     ],
+     "pose": [
+      0.0,
+      0.06075,
+      0.0755,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R05",
+   "key": "R05",
+   "mesh": "meshes/objects/R05.glb",
+   "spawn": [
+    8.82,
+    7.2299999999999995,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/R05/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R05/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R05/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R05/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R05/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R05/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R05/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R05/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R05/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R05/Goods0/Collision/Box001/Box",
+     "size": [
+      0.091,
+      0.091,
+      0.096
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0515,
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R06",
+   "key": "R06",
+   "mesh": "meshes/objects/R06.glb",
+   "spawn": [
+    9.27,
+    7.2299999999999995,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/R06/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R06/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R06/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R06/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R06/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R06/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R06/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R06/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R06/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R06/Goods0/Collision/Cylinder",
+     "size": [
+      0.065,
+      0.2165,
+      0.065
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.036,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R07",
+   "key": "R07",
+   "mesh": "meshes/objects/R07.glb",
+   "spawn": [
+    9.72,
+    7.2299999999999995,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/R07/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R07/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R07/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R07/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R07/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R07/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R07/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R07/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R07/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R07/Goods0/Collision/Cylinder",
+     "size": [
+      0.066,
+      0.066,
+      0.1152
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0611,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R08",
+   "key": "R08",
+   "mesh": "meshes/objects/R08.glb",
+   "spawn": [
+    10.399999999999999,
+    7.2299999999999995,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/R08/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R08/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R08/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R08/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R08/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R08/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R08/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R08/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R08/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R08/Goods0/Collision/Box001/Box",
+     "size": [
+      0.087,
+      0.126,
+      0.1185
+     ],
+     "pose": [
+      0.0,
+      -0.06075,
+      0.06275,
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ]
+    },
+    {
+     "path": "/World/Totes/R08/Goods1/Collision/Box001/Box",
+     "size": [
+      0.087,
+      0.126,
+      0.1185
+     ],
+     "pose": [
+      0.0,
+      0.06075,
+      0.06275,
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R10",
+   "key": "R10",
+   "mesh": "meshes/objects/R10.glb",
+   "spawn": [
+    11.299999999999999,
+    7.2299999999999995,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/R10/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R10/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R10/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R10/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R10/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R10/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R10/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R10/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R10/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R10/Goods0/Collision/Cylinder",
+     "size": [
+      0.103,
+      0.103,
+      0.048
+     ],
+     "pose": [
+      0.0,
+      -0.06075,
+      0.0275,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R10/Goods1/Collision/Cylinder",
+     "size": [
+      0.103,
+      0.103,
+      0.048
+     ],
+     "pose": [
+      0.0,
+      0.06075,
+      0.0275,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R10/Goods2/Collision/Cylinder",
+     "size": [
+      0.103,
+      0.103,
+      0.048
+     ],
+     "pose": [
+      0.0,
+      -0.06075,
+      0.0755,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R10/Goods3/Collision/Cylinder",
+     "size": [
+      0.103,
+      0.103,
+      0.048
+     ],
+     "pose": [
+      0.0,
+      0.06075,
+      0.0755,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R11",
+   "key": "R11",
+   "mesh": "meshes/objects/R11.glb",
+   "spawn": [
+    11.75,
+    7.2299999999999995,
+    0.15,
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865477
+   ],
+   "color": "#ffffff",
+   "height": 0.147,
+   "preserveMaterials": true,
+   "collisions": [
+    {
+     "path": "/World/Totes/R11/Collision/Floor/Box",
+     "size": [
+      0.167,
+      0.248,
+      0.017
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0085,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R11/Collision/LongWallW/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      -0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R11/Collision/LongWallE/Box",
+     "size": [
+      0.018,
+      0.297,
+      0.132
+     ],
+     "pose": [
+      0.09,
+      0.0,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R11/Collision/ShortWallS/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      -0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R11/Collision/ShortWallN/Box",
+     "size": [
+      0.162,
+      0.027,
+      0.132
+     ],
+     "pose": [
+      0.0,
+      0.135,
+      0.081,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R11/Collision/RailWeb/Box",
+     "size": [
+      0.008,
+      0.243,
+      0.055
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.1905,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R11/Collision/RailPostS/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      -0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R11/Collision/RailPostN/Box",
+     "size": [
+      0.008,
+      0.02,
+      0.071
+     ],
+     "pose": [
+      0.0,
+      0.1315,
+      0.1825,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R11/Collision/RailBead",
+     "size": [
+      0.02,
+      0.243,
+      0.02
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.163,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "path": "/World/Totes/R11/Goods0/Collision/Box001/Box",
+     "size": [
+      0.091,
+      0.091,
+      0.096
+     ],
+     "pose": [
+      0.0,
+      0.0,
+      0.0515,
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ]
+    }
+   ]
+  }
+ ],
+ "segments": [],
+ "missingAssets": [],
+ "source": {
+  "usd": "/home/vee/Documents/WarehouseTwin/scenes/warehouse.usda",
+  "converter": "26.07.0",
+  "layers": "ec1a34d773b17b08467273aded3e21f408ee5d39ebb80d2b23e62d9a11198688"
+ }
+}
