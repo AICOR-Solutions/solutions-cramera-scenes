@@ -1,0 +1,11 @@
+{
+ "formatVersion": "1.0",
+ "default": "aicor_lab",
+ "scenes": [
+   "name": "warehouse",
+   "robot": "",
+   "environment": "Small Warehouse Twin",
+   "task": "Warehouse hall (environment)"
+  }
+ ]
+}

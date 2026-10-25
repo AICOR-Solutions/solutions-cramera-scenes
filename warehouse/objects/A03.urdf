@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="A03">
+  <link name="A03">
+    <visual>
+      <geometry>
+        <mesh filename="../meshes/objects/A03.glb" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.0085" rpy="0 0 0" />
+      <geometry>
+        <box size="0.166999996 0.247999996 0.0170000009" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.09 0 0.081" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0179999992 0.296999991 0.131999999" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.09 0 0.081" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0179999992 0.296999991 0.131999999" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 -0.135 0.081" rpy="0 0 0" />
+      <geometry>
+        <box size="0.162 0.0270000007 0.131999999" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0.135 0.081" rpy="0 0 0" />
+      <geometry>
+        <box size="0.162 0.0270000007 0.131999999" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0.1905" rpy="0 0 0" />
+      <geometry>
+        <box size="0.00800000038 0.243000001 0.0549999997" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 -0.1315 0.1825" rpy="0 0 0" />
+      <geometry>
+        <box size="0.00800000038 0.0199999996 0.0710000023" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0.1315 0.1825" rpy="0 0 0" />
+      <geometry>
+        <box size="0.00800000038 0.0199999996 0.0710000023" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0.163" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0199999996 0.243000001 0.0199999996" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0.0611" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0659999996 0.0659999996 0.115199998" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
