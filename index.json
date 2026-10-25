@@ -1,7 +1,8 @@
 {
  "formatVersion": "1.0",
- "default": "aicor_lab",
+ "default": "warehouse",
  "scenes": [
+  {
    "name": "warehouse",
    "robot": "",
    "environment": "Small Warehouse Twin",
