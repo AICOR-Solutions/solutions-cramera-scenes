@@ -7,6 +7,18 @@
    "robot": "",
    "environment": "Small Warehouse Twin",
    "task": "Warehouse hall (environment)"
+  },
+  {
+   "name": "warehouse_tiago_stretch_totes",
+   "robot": "stretch_04284f6532c945f098f6ac3ea2eeda6e",
+   "environment": "Small Warehouse Twin",
+   "task": "TIAGo: A08 + A09 -> in-feed (B00, B01); Stretch: R01 -> A10"
+  },
+  {
+   "name": "warehouse_tiago_two_totes",
+   "robot": "tiago",
+   "environment": "Small Warehouse Twin",
+   "task": "TIAGo: A08 + A09 -> packing station in-feed (B00, B01)"
   }
  ]
 }

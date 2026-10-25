@@ -1,0 +1,1888 @@
+{
+ "name": "warehouse_tiago_stretch_totes",
+ "formatVersion": "1.0",
+ "framesPerSecond": 50.0,
+ "trajectory": "trajectory.json",
+ "statecharts": "statecharts.json",
+ "models": [
+  {
+   "name": "environment",
+   "urdf": "environment.urdf",
+   "prefix": "",
+   "robot": false,
+   "links": 719,
+   "movableJoints": [],
+   "preserveMaterials": true,
+   "posedJoints": [
+    "e352aac8-5b24-4d7e-9bf5-365512cf710b/map_T_odom",
+    "6404d406-4935-4ad1-8639-137749d23c8c/map_T_odom"
+   ]
+  },
+  {
+   "name": "tiago_01f0629227a64bd3891e1bf7c58230dc",
+   "urdf": "tiago_01f0629227a64bd3891e1bf7c58230dc.urdf",
+   "prefix": "",
+   "robot": true,
+   "links": 103,
+   "movableJoints": [
+    "tiago_dual/torso_lift_joint",
+    "tiago_dual/head_1_joint",
+    "tiago_dual/head_2_joint",
+    "tiago_dual/arm_right_1_joint",
+    "tiago_dual/arm_right_2_joint",
+    "tiago_dual/arm_right_3_joint",
+    "tiago_dual/arm_right_4_joint",
+    "tiago_dual/arm_right_5_joint",
+    "tiago_dual/arm_right_6_joint",
+    "tiago_dual/arm_right_7_joint",
+    "tiago_dual/gripper_right_right_inner_knuckle_joint",
+    "tiago_dual/gripper_right_right_outer_knuckle_joint",
+    "tiago_dual/gripper_right_right_inner_finger_joint",
+    "tiago_dual/gripper_right_left_inner_knuckle_joint",
+    "tiago_dual/gripper_right_finger_joint",
+    "tiago_dual/gripper_right_left_inner_finger_joint",
+    "tiago_dual/arm_left_1_joint",
+    "tiago_dual/arm_left_2_joint",
+    "tiago_dual/arm_left_3_joint",
+    "tiago_dual/arm_left_4_joint",
+    "tiago_dual/arm_left_5_joint",
+    "tiago_dual/arm_left_6_joint",
+    "tiago_dual/arm_left_7_joint",
+    "tiago_dual/gripper_left_right_inner_knuckle_joint",
+    "tiago_dual/gripper_left_right_outer_knuckle_joint",
+    "tiago_dual/gripper_left_right_inner_finger_joint",
+    "tiago_dual/gripper_left_left_inner_knuckle_joint",
+    "tiago_dual/gripper_left_finger_joint",
+    "tiago_dual/gripper_left_left_inner_finger_joint",
+    "tiago_dual/wheel_left_joint",
+    "tiago_dual/wheel_right_joint"
+   ],
+   "posedJoints": [],
+   "identifier": "01f06292-27a6-4bd3-891e-1bf7c58230dc",
+   "pose": [
+    14.19292,
+    3.57431,
+    0.0,
+    0.0,
+    0.0,
+    0.0367,
+    0.99933
+   ]
+  },
+  {
+   "name": "stretch_04284f6532c945f098f6ac3ea2eeda6e",
+   "urdf": "stretch_04284f6532c945f098f6ac3ea2eeda6e.urdf",
+   "prefix": "",
+   "robot": true,
+   "links": 47,
+   "movableJoints": [
+    "stretch_description/joint_head_pan",
+    "stretch_description/joint_head_tilt",
+    "stretch_description/joint_lift",
+    "stretch_description/joint_arm_l3",
+    "stretch_description/joint_arm_l2",
+    "stretch_description/joint_arm_l1",
+    "stretch_description/joint_arm_l0",
+    "stretch_description/joint_wrist_yaw",
+    "stretch_description/joint_wrist_pitch",
+    "stretch_description/joint_wrist_roll",
+    "stretch_description/joint_gripper_finger_left",
+    "stretch_description/joint_gripper_finger_right",
+    "stretch_description/joint_left_wheel",
+    "stretch_description/joint_right_wheel"
+   ],
+   "posedJoints": [],
+   "identifier": "04284f65-32c9-45f0-98f6-ac3ea2eeda6e",
+   "pose": [
+    10.50748,
+    5.56632,
+    0.0,
+    0.0,
+    0.0,
+    0.05349,
+    0.99857
+   ]
+  }
+ ],
+ "robot": {
+  "name": "stretch_04284f6532c945f098f6ac3ea2eeda6e",
+  "prefix": "",
+  "baseBody": "stretch_description/base_link",
+  "parts": {
+   "StretchArm": [
+    "stretch_description/link_arm_l0",
+    "stretch_description/link_arm_l1",
+    "stretch_description/link_arm_l2",
+    "stretch_description/link_arm_l3",
+    "stretch_description/link_arm_l4",
+    "stretch_description/link_lift",
+    "stretch_description/link_wrist_pitch",
+    "stretch_description/link_wrist_roll",
+    "stretch_description/link_wrist_yaw",
+    "stretch_description/link_wrist_yaw_bottom"
+   ],
+   "StretchGripper": [
+    "stretch_description/link_grasp_center",
+    "stretch_description/link_gripper_finger_left",
+    "stretch_description/link_gripper_finger_right",
+    "stretch_description/link_gripper_fingertip_left",
+    "stretch_description/link_gripper_fingertip_right",
+    "stretch_description/link_straight_gripper"
+   ]
+  },
+  "partAnnotations": [
+   {
+    "name": "StretchArm",
+    "role": "arm",
+    "links": [
+     "stretch_description/link_arm_l0",
+     "stretch_description/link_arm_l1",
+     "stretch_description/link_arm_l2",
+     "stretch_description/link_arm_l3",
+     "stretch_description/link_arm_l4",
+     "stretch_description/link_lift",
+     "stretch_description/link_wrist_pitch",
+     "stretch_description/link_wrist_roll",
+     "stretch_description/link_wrist_yaw",
+     "stretch_description/link_wrist_yaw_bottom"
+    ]
+   },
+   {
+    "name": "StretchGripper",
+    "role": "end_effector",
+    "links": [
+     "stretch_description/link_grasp_center",
+     "stretch_description/link_gripper_finger_left",
+     "stretch_description/link_gripper_finger_right",
+     "stretch_description/link_gripper_fingertip_left",
+     "stretch_description/link_gripper_fingertip_right",
+     "stretch_description/link_straight_gripper"
+    ],
+    "attachedTo": "StretchArm"
+   }
+  ],
+  "identifier": "04284f65-32c9-45f0-98f6-ac3ea2eeda6e",
+  "label": "Stretch"
+ },
+ "objects": [
+  {
+   "id": "A00",
+   "key": "f40a4154-d34f-4c59-a43f-cc21fa7873b5",
+   "spawn": [
+    6.34,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/f40a4154-d34f-4c59-a43f-cc21fa7873b5/A00.glb"
+  },
+  {
+   "id": "A01",
+   "key": "f4efa1f3-0c58-4b71-b030-8028f4af6eae",
+   "spawn": [
+    6.79,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/f4efa1f3-0c58-4b71-b030-8028f4af6eae/A01.glb"
+  },
+  {
+   "id": "A02",
+   "key": "27aa128d-f6b4-407e-b067-13a82d6db976",
+   "spawn": [
+    7.24,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/27aa128d-f6b4-407e-b067-13a82d6db976/A02.glb"
+  },
+  {
+   "id": "A03",
+   "key": "dd71c025-ab53-4736-8fd5-ea17522d2f9d",
+   "spawn": [
+    7.69,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/dd71c025-ab53-4736-8fd5-ea17522d2f9d/A03.glb"
+  },
+  {
+   "id": "A04",
+   "key": "fa48e026-5500-433e-a7c8-0268165e437d",
+   "spawn": [
+    8.37,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/fa48e026-5500-433e-a7c8-0268165e437d/A04.glb"
+  },
+  {
+   "id": "A05",
+   "key": "59649b33-a069-4c9b-8ece-f8dff7728564",
+   "spawn": [
+    8.82,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/59649b33-a069-4c9b-8ece-f8dff7728564/A05.glb"
+  },
+  {
+   "id": "A06",
+   "key": "82d9324b-121b-451b-be75-fb22ad0766fa",
+   "spawn": [
+    9.27,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/82d9324b-121b-451b-be75-fb22ad0766fa/A06.glb"
+  },
+  {
+   "id": "A07",
+   "key": "07fd273c-d310-4fd0-8512-7da7350b94a3",
+   "spawn": [
+    9.72,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/07fd273c-d310-4fd0-8512-7da7350b94a3/A07.glb"
+  },
+  {
+   "id": "A08",
+   "key": "f073edc2-c21c-48c9-8a38-be7374df7ff9",
+   "spawn": [
+    10.4,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/f073edc2-c21c-48c9-8a38-be7374df7ff9/A08.glb"
+  },
+  {
+   "id": "A09",
+   "key": "a90426b5-f08e-4878-a280-326c25cd547e",
+   "spawn": [
+    10.85,
+    5.0,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/a90426b5-f08e-4878-a280-326c25cd547e/A09.glb"
+  },
+  {
+   "id": "R00",
+   "key": "03a47e6a-89ed-4c35-a273-fad75e872aac",
+   "spawn": [
+    6.34,
+    7.23,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/03a47e6a-89ed-4c35-a273-fad75e872aac/R00.glb"
+  },
+  {
+   "id": "R01",
+   "key": "0268accf-88cb-49d0-b8d2-7cf273bdaa7c",
+   "spawn": [
+    6.79,
+    7.23,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/0268accf-88cb-49d0-b8d2-7cf273bdaa7c/R01.glb"
+  },
+  {
+   "id": "R02",
+   "key": "092d86d4-46f8-4a96-b2ae-437d968d9f5f",
+   "spawn": [
+    7.24,
+    7.23,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/092d86d4-46f8-4a96-b2ae-437d968d9f5f/R02.glb"
+  },
+  {
+   "id": "R04",
+   "key": "0adeec23-dbf2-4d27-9826-5bf1d6776756",
+   "spawn": [
+    8.37,
+    7.23,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/0adeec23-dbf2-4d27-9826-5bf1d6776756/R04.glb"
+  },
+  {
+   "id": "R05",
+   "key": "8f679979-1c2e-4e2c-a5f8-3257752c507c",
+   "spawn": [
+    8.82,
+    7.23,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/8f679979-1c2e-4e2c-a5f8-3257752c507c/R05.glb"
+  },
+  {
+   "id": "R06",
+   "key": "15eadfbd-9a43-45b9-a5fe-c71347addf78",
+   "spawn": [
+    9.27,
+    7.23,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/15eadfbd-9a43-45b9-a5fe-c71347addf78/R06.glb"
+  },
+  {
+   "id": "R07",
+   "key": "3357fc1f-a72e-4afb-8b20-a89bb7d1f7e9",
+   "spawn": [
+    9.72,
+    7.23,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/3357fc1f-a72e-4afb-8b20-a89bb7d1f7e9/R07.glb"
+  },
+  {
+   "id": "R08",
+   "key": "092a32c0-9086-4ff4-8811-98d56efae6da",
+   "spawn": [
+    10.4,
+    7.23,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/092a32c0-9086-4ff4-8811-98d56efae6da/R08.glb"
+  },
+  {
+   "id": "R10",
+   "key": "731688f6-95f4-4e58-83e1-5b7ce9609c5c",
+   "spawn": [
+    11.3,
+    7.23,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/731688f6-95f4-4e58-83e1-5b7ce9609c5c/R10.glb"
+  },
+  {
+   "id": "R11",
+   "key": "4980181f-2172-48c7-9afd-137f645d48a9",
+   "spawn": [
+    11.75,
+    7.23,
+    0.15,
+    0.0,
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "color": "#ffffff",
+   "height": 0.218,
+   "mesh": "meshes/objects/4980181f-2172-48c7-9afd-137f645d48a9/R11.glb"
+  }
+ ],
+ "segments": [
+  {
+   "step": "run",
+   "start": 0,
+   "end": 1131
+  },
+  {
+   "step": "RailPickUpAction",
+   "start": 1131,
+   "end": 1378,
+   "picks": "f073edc2-c21c-48c9-8a38-be7374df7ff9",
+   "attach": 1131,
+   "detach": 2532
+  },
+  {
+   "step": "RailPickUpAction",
+   "start": 1378,
+   "end": 7530,
+   "picks": "a90426b5-f08e-4878-a280-326c25cd547e",
+   "attach": 1378,
+   "detach": 2795
+  },
+  {
+   "step": "RailPickUpAction",
+   "start": 7530,
+   "end": 10167,
+   "picks": "0268accf-88cb-49d0-b8d2-7cf273bdaa7c",
+   "attach": 7530,
+   "detach": 8731
+  }
+ ],
+ "planTrees": [
+  {
+   "kind": "SequentialNode",
+   "label": "SequentialNode",
+   "status": "SUCCEEDED",
+   "children": [
+    {
+     "kind": "ActionNode",
+     "label": "ParkArmsAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_15",
+       "parent": "plan_node_1"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "MoveJointsMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_node_16",
+       "parent": "plan_node_1"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_17",
+       "parent": "plan_node_1"
+      }
+     ],
+     "arm": "BOTH",
+     "id": "plan_node_1",
+     "parent": "plan_node_0",
+     "start": 1,
+     "end": 102
+    },
+    {
+     "kind": "ActionNode",
+     "label": "NavigateAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_18",
+       "parent": "plan_node_2"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "MoveMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_node_19",
+       "parent": "plan_node_2"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_20",
+       "parent": "plan_node_2"
+      }
+     ],
+     "id": "plan_node_2",
+     "parent": "plan_node_0",
+     "start": 106,
+     "end": 825
+    },
+    {
+     "kind": "ActionNode",
+     "label": "RollAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_21",
+       "parent": "plan_node_3"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "RollMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_node_22",
+       "parent": "plan_node_3"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_23",
+       "parent": "plan_node_3"
+      }
+     ],
+     "id": "plan_node_3",
+     "parent": "plan_node_0",
+     "start": 827,
+     "end": 944
+    },
+    {
+     "kind": "ActionNode",
+     "label": "RailPickUpAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_29",
+       "parent": "plan_node_4"
+      },
+      {
+       "kind": "SequentialNode",
+       "label": "SequentialNode",
+       "status": "SUCCEEDED",
+       "children": [
+        {
+         "kind": "ActionNode",
+         "label": "ReachAction",
+         "status": "SUCCEEDED",
+         "children": [
+          {
+           "kind": "ConditionNode",
+           "label": "ConditionNode",
+           "status": "CREATED",
+           "children": [],
+           "id": "plan_node_35",
+           "parent": "plan_node_24"
+          },
+          {
+           "kind": "SequentialNode",
+           "label": "SequentialNode",
+           "status": "SUCCEEDED",
+           "children": [
+            {
+             "kind": "MotionNode",
+             "label": "MoveToolCenterPointMotion",
+             "status": "SUCCEEDED",
+             "children": [],
+             "arm": "LEFT",
+             "id": "plan_node_31",
+             "parent": "plan_node_28"
+            },
+            {
+             "kind": "MotionNode",
+             "label": "MoveGripperMotion",
+             "status": "SUCCEEDED",
+             "children": [],
+             "arm": "LEFT",
+             "id": "plan_node_32",
+             "parent": "plan_node_28"
+            },
+            {
+             "kind": "MotionNode",
+             "label": "MoveToolCenterPointMotion",
+             "status": "SUCCEEDED",
+             "children": [],
+             "arm": "LEFT",
+             "id": "plan_node_33",
+             "parent": "plan_node_28"
+            }
+           ],
+           "id": "plan_node_28",
+           "parent": "plan_node_24"
+          },
+          {
+           "kind": "ConditionNode",
+           "label": "ConditionNode",
+           "status": "CREATED",
+           "children": [],
+           "id": "plan_node_36",
+           "parent": "plan_node_24"
+          }
+         ],
+         "target": "f073edc2-c21c-48c9-8a38-be7374df7ff9",
+         "arm": "LEFT",
+         "id": "plan_node_24",
+         "parent": "plan_node_14",
+         "start": 946,
+         "end": 1089
+        },
+        {
+         "kind": "MotionNode",
+         "label": "MoveGripperMotion",
+         "status": "SUCCEEDED",
+         "children": [],
+         "arm": "LEFT",
+         "id": "plan_node_25",
+         "parent": "plan_node_14"
+        },
+        {
+         "kind": "AttachNode",
+         "label": "AttachNode",
+         "status": "SUCCEEDED",
+         "children": [],
+         "id": "plan_node_26",
+         "parent": "plan_node_14"
+        },
+        {
+         "kind": "MotionNode",
+         "label": "MoveToolCenterPointMotion",
+         "status": "SUCCEEDED",
+         "children": [],
+         "arm": "LEFT",
+         "id": "plan_node_27",
+         "parent": "plan_node_14"
+        }
+       ],
+       "id": "plan_node_14",
+       "parent": "plan_node_4",
+       "start": 946,
+       "end": 1089
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_30",
+       "parent": "plan_node_4"
+      }
+     ],
+     "target": "f073edc2-c21c-48c9-8a38-be7374df7ff9",
+     "arm": "LEFT",
+     "id": "plan_node_4",
+     "parent": "plan_node_0",
+     "start": 946,
+     "end": 1138
+    },
+    {
+     "kind": "ActionNode",
+     "label": "RailPickUpAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_42",
+       "parent": "plan_node_5"
+      },
+      {
+       "kind": "SequentialNode",
+       "label": "SequentialNode",
+       "status": "SUCCEEDED",
+       "children": [
+        {
+         "kind": "ActionNode",
+         "label": "ReachAction",
+         "status": "SUCCEEDED",
+         "children": [
+          {
+           "kind": "ConditionNode",
+           "label": "ConditionNode",
+           "status": "CREATED",
+           "children": [],
+           "id": "plan_node_48",
+           "parent": "plan_node_37"
+          },
+          {
+           "kind": "SequentialNode",
+           "label": "SequentialNode",
+           "status": "SUCCEEDED",
+           "children": [
+            {
+             "kind": "MotionNode",
+             "label": "MoveToolCenterPointMotion",
+             "status": "SUCCEEDED",
+             "children": [],
+             "arm": "RIGHT",
+             "id": "plan_node_44",
+             "parent": "plan_node_41"
+            },
+            {
+             "kind": "MotionNode",
+             "label": "MoveGripperMotion",
+             "status": "SUCCEEDED",
+             "children": [],
+             "arm": "RIGHT",
+             "id": "plan_node_45",
+             "parent": "plan_node_41"
+            },
+            {
+             "kind": "MotionNode",
+             "label": "MoveToolCenterPointMotion",
+             "status": "SUCCEEDED",
+             "children": [],
+             "arm": "RIGHT",
+             "id": "plan_node_46",
+             "parent": "plan_node_41"
+            }
+           ],
+           "id": "plan_node_41",
+           "parent": "plan_node_37"
+          },
+          {
+           "kind": "ConditionNode",
+           "label": "ConditionNode",
+           "status": "CREATED",
+           "children": [],
+           "id": "plan_node_49",
+           "parent": "plan_node_37"
+          }
+         ],
+         "target": "a90426b5-f08e-4878-a280-326c25cd547e",
+         "arm": "RIGHT",
+         "id": "plan_node_37",
+         "parent": "plan_node_34",
+         "start": 1182,
+         "end": 1336
+        },
+        {
+         "kind": "MotionNode",
+         "label": "MoveGripperMotion",
+         "status": "SUCCEEDED",
+         "children": [],
+         "arm": "RIGHT",
+         "id": "plan_node_38",
+         "parent": "plan_node_34"
+        },
+        {
+         "kind": "AttachNode",
+         "label": "AttachNode",
+         "status": "SUCCEEDED",
+         "children": [],
+         "id": "plan_node_39",
+         "parent": "plan_node_34"
+        },
+        {
+         "kind": "MotionNode",
+         "label": "MoveToolCenterPointMotion",
+         "status": "SUCCEEDED",
+         "children": [],
+         "arm": "RIGHT",
+         "id": "plan_node_40",
+         "parent": "plan_node_34"
+        }
+       ],
+       "id": "plan_node_34",
+       "parent": "plan_node_5",
+       "start": 1182,
+       "end": 1336
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_43",
+       "parent": "plan_node_5"
+      }
+     ],
+     "target": "a90426b5-f08e-4878-a280-326c25cd547e",
+     "arm": "RIGHT",
+     "id": "plan_node_5",
+     "parent": "plan_node_0",
+     "start": 1182,
+     "end": 1385
+    },
+    {
+     "kind": "ActionNode",
+     "label": "RollAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_50",
+       "parent": "plan_node_6"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "RollMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_node_51",
+       "parent": "plan_node_6"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_52",
+       "parent": "plan_node_6"
+      }
+     ],
+     "id": "plan_node_6",
+     "parent": "plan_node_0",
+     "start": 1429,
+     "end": 1527
+    },
+    {
+     "kind": "ActionNode",
+     "label": "NavigateAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_53",
+       "parent": "plan_node_7"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "MoveMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_node_54",
+       "parent": "plan_node_7"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_55",
+       "parent": "plan_node_7"
+      }
+     ],
+     "id": "plan_node_7",
+     "parent": "plan_node_0",
+     "start": 1529,
+     "end": 2244
+    },
+    {
+     "kind": "ActionNode",
+     "label": "MoveHeldAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_56",
+       "parent": "plan_node_8"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "MoveHeldMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_node_57",
+       "parent": "plan_node_8"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_58",
+       "parent": "plan_node_8"
+      }
+     ],
+     "id": "plan_node_8",
+     "parent": "plan_node_0",
+     "start": 2246,
+     "end": 2311
+    },
+    {
+     "kind": "ActionNode",
+     "label": "RollAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_59",
+       "parent": "plan_node_9"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "RollMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_node_60",
+       "parent": "plan_node_9"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_61",
+       "parent": "plan_node_9"
+      }
+     ],
+     "id": "plan_node_9",
+     "parent": "plan_node_0",
+     "start": 2335,
+     "end": 2460
+    },
+    {
+     "kind": "ActionNode",
+     "label": "PlaceAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_68",
+       "parent": "plan_node_10"
+      },
+      {
+       "kind": "SequentialNode",
+       "label": "SequentialNode",
+       "status": "SUCCEEDED",
+       "children": [
+        {
+         "kind": "MotionNode",
+         "label": "MovePlacementMotion",
+         "status": "SUCCEEDED",
+         "children": [],
+         "arm": "LEFT",
+         "id": "plan_node_62",
+         "parent": "plan_node_47"
+        },
+        {
+         "kind": "MotionNode",
+         "label": "MovePlacementMotion",
+         "status": "SUCCEEDED",
+         "children": [],
+         "arm": "LEFT",
+         "id": "plan_node_63",
+         "parent": "plan_node_47"
+        },
+        {
+         "kind": "MotionNode",
+         "label": "MoveGripperMotion",
+         "status": "SUCCEEDED",
+         "children": [],
+         "arm": "LEFT",
+         "id": "plan_node_64",
+         "parent": "plan_node_47"
+        },
+        {
+         "kind": "DetachNode",
+         "label": "DetachNode",
+         "status": "SUCCEEDED",
+         "children": [],
+         "id": "plan_node_65",
+         "parent": "plan_node_47"
+        },
+        {
+         "kind": "MotionNode",
+         "label": "MovePlacementMotion",
+         "status": "SUCCEEDED",
+         "children": [],
+         "arm": "LEFT",
+         "id": "plan_node_66",
+         "parent": "plan_node_47"
+        }
+       ],
+       "id": "plan_node_47",
+       "parent": "plan_node_10"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_69",
+       "parent": "plan_node_10"
+      }
+     ],
+     "target": "f073edc2-c21c-48c9-8a38-be7374df7ff9",
+     "arm": "LEFT",
+     "id": "plan_node_10",
+     "parent": "plan_node_0",
+     "start": 2471,
+     "end": 2652
+    },
+    {
+     "kind": "ActionNode",
+     "label": "PlaceAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_76",
+       "parent": "plan_node_11"
+      },
+      {
+       "kind": "SequentialNode",
+       "label": "SequentialNode",
+       "status": "SUCCEEDED",
+       "children": [
+        {
+         "kind": "MotionNode",
+         "label": "MovePlacementMotion",
+         "status": "SUCCEEDED",
+         "children": [],
+         "arm": "RIGHT",
+         "id": "plan_node_70",
+         "parent": "plan_node_67"
+        },
+        {
+         "kind": "MotionNode",
+         "label": "MovePlacementMotion",
+         "status": "SUCCEEDED",
+         "children": [],
+         "arm": "RIGHT",
+         "id": "plan_node_71",
+         "parent": "plan_node_67"
+        },
+        {
+         "kind": "MotionNode",
+         "label": "MoveGripperMotion",
+         "status": "SUCCEEDED",
+         "children": [],
+         "arm": "RIGHT",
+         "id": "plan_node_72",
+         "parent": "plan_node_67"
+        },
+        {
+         "kind": "DetachNode",
+         "label": "DetachNode",
+         "status": "SUCCEEDED",
+         "children": [],
+         "id": "plan_node_73",
+         "parent": "plan_node_67"
+        },
+        {
+         "kind": "MotionNode",
+         "label": "MovePlacementMotion",
+         "status": "SUCCEEDED",
+         "children": [],
+         "arm": "RIGHT",
+         "id": "plan_node_74",
+         "parent": "plan_node_67"
+        }
+       ],
+       "id": "plan_node_67",
+       "parent": "plan_node_11"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_77",
+       "parent": "plan_node_11"
+      }
+     ],
+     "target": "a90426b5-f08e-4878-a280-326c25cd547e",
+     "arm": "RIGHT",
+     "id": "plan_node_11",
+     "parent": "plan_node_0",
+     "start": 2678,
+     "end": 2859
+    },
+    {
+     "kind": "ActionNode",
+     "label": "ParkArmsAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_78",
+       "parent": "plan_node_12"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "MoveJointsMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_node_79",
+       "parent": "plan_node_12"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_80",
+       "parent": "plan_node_12"
+      }
+     ],
+     "arm": "BOTH",
+     "id": "plan_node_12",
+     "parent": "plan_node_0",
+     "start": 2886,
+     "end": 2973
+    },
+    {
+     "kind": "ActionNode",
+     "label": "RollAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_81",
+       "parent": "plan_node_13"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "RollMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_node_82",
+       "parent": "plan_node_13"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_node_83",
+       "parent": "plan_node_13"
+      }
+     ],
+     "id": "plan_node_13",
+     "parent": "plan_node_0",
+     "start": 2994,
+     "end": 3110
+    }
+   ],
+   "id": "plan_node_0",
+   "start": 1,
+   "end": 3110,
+   "robot": "Tiago"
+  },
+  {
+   "kind": "SequentialNode",
+   "label": "SequentialNode",
+   "status": "SUCCEEDED",
+   "children": [
+    {
+     "kind": "ActionNode",
+     "label": "ParkArmsAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_14",
+       "parent": "plan_2_node_1"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "MoveJointsMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_2_node_15",
+       "parent": "plan_2_node_1"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_16",
+       "parent": "plan_2_node_1"
+      }
+     ],
+     "arm": "BOTH",
+     "id": "plan_2_node_1",
+     "parent": "plan_2_node_0",
+     "start": 3114,
+     "end": 3461
+    },
+    {
+     "kind": "ActionNode",
+     "label": "NavigateAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_17",
+       "parent": "plan_2_node_2"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "MoveMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_2_node_18",
+       "parent": "plan_2_node_2"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_19",
+       "parent": "plan_2_node_2"
+      }
+     ],
+     "id": "plan_2_node_2",
+     "parent": "plan_2_node_0",
+     "start": 3464,
+     "end": 4228
+    },
+    {
+     "kind": "ActionNode",
+     "label": "RollAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_20",
+       "parent": "plan_2_node_3"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "RollMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_2_node_21",
+       "parent": "plan_2_node_3"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_22",
+       "parent": "plan_2_node_3"
+      }
+     ],
+     "id": "plan_2_node_3",
+     "parent": "plan_2_node_0",
+     "start": 4230,
+     "end": 4346
+    },
+    {
+     "kind": "ActionNode",
+     "label": "RailPickUpAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_28",
+       "parent": "plan_2_node_4"
+      },
+      {
+       "kind": "SequentialNode",
+       "label": "SequentialNode",
+       "status": "SUCCEEDED",
+       "children": [
+        {
+         "kind": "ActionNode",
+         "label": "ReachAction",
+         "status": "SUCCEEDED",
+         "children": [
+          {
+           "kind": "ConditionNode",
+           "label": "ConditionNode",
+           "status": "CREATED",
+           "children": [],
+           "id": "plan_2_node_34",
+           "parent": "plan_2_node_23"
+          },
+          {
+           "kind": "SequentialNode",
+           "label": "SequentialNode",
+           "status": "SUCCEEDED",
+           "children": [
+            {
+             "kind": "MotionNode",
+             "label": "MoveToolCenterPointMotion",
+             "status": "SUCCEEDED",
+             "children": [],
+             "arm": "LEFT",
+             "id": "plan_2_node_30",
+             "parent": "plan_2_node_27"
+            },
+            {
+             "kind": "MotionNode",
+             "label": "MoveGripperMotion",
+             "status": "SUCCEEDED",
+             "children": [],
+             "arm": "LEFT",
+             "id": "plan_2_node_31",
+             "parent": "plan_2_node_27"
+            },
+            {
+             "kind": "MotionNode",
+             "label": "MoveToolCenterPointMotion",
+             "status": "SUCCEEDED",
+             "children": [],
+             "arm": "LEFT",
+             "id": "plan_2_node_32",
+             "parent": "plan_2_node_27"
+            }
+           ],
+           "id": "plan_2_node_27",
+           "parent": "plan_2_node_23"
+          },
+          {
+           "kind": "ConditionNode",
+           "label": "ConditionNode",
+           "status": "CREATED",
+           "children": [],
+           "id": "plan_2_node_35",
+           "parent": "plan_2_node_23"
+          }
+         ],
+         "target": "0268accf-88cb-49d0-b8d2-7cf273bdaa7c",
+         "arm": "LEFT",
+         "id": "plan_2_node_23",
+         "parent": "plan_2_node_13",
+         "start": 4348,
+         "end": 6357
+        },
+        {
+         "kind": "MotionNode",
+         "label": "MoveGripperMotion",
+         "status": "SUCCEEDED",
+         "children": [],
+         "arm": "LEFT",
+         "id": "plan_2_node_24",
+         "parent": "plan_2_node_13"
+        },
+        {
+         "kind": "AttachNode",
+         "label": "AttachNode",
+         "status": "SUCCEEDED",
+         "children": [],
+         "id": "plan_2_node_25",
+         "parent": "plan_2_node_13"
+        },
+        {
+         "kind": "MotionNode",
+         "label": "MoveToolCenterPointMotion",
+         "status": "SUCCEEDED",
+         "children": [],
+         "arm": "LEFT",
+         "id": "plan_2_node_26",
+         "parent": "plan_2_node_13"
+        }
+       ],
+       "id": "plan_2_node_13",
+       "parent": "plan_2_node_4",
+       "start": 4348,
+       "end": 6357
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_29",
+       "parent": "plan_2_node_4"
+      }
+     ],
+     "target": "0268accf-88cb-49d0-b8d2-7cf273bdaa7c",
+     "arm": "LEFT",
+     "id": "plan_2_node_4",
+     "parent": "plan_2_node_0",
+     "start": 4348,
+     "end": 7551
+    },
+    {
+     "kind": "ActionNode",
+     "label": "MoveHeldAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_36",
+       "parent": "plan_2_node_5"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "MoveHeldMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_2_node_37",
+       "parent": "plan_2_node_5"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_38",
+       "parent": "plan_2_node_5"
+      }
+     ],
+     "id": "plan_2_node_5",
+     "parent": "plan_2_node_0",
+     "start": 7578,
+     "end": 7588
+    },
+    {
+     "kind": "ActionNode",
+     "label": "MoveHeldAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_39",
+       "parent": "plan_2_node_6"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "MoveHeldMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_2_node_40",
+       "parent": "plan_2_node_6"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_41",
+       "parent": "plan_2_node_6"
+      }
+     ],
+     "id": "plan_2_node_6",
+     "parent": "plan_2_node_0",
+     "start": 7629,
+     "end": 7697
+    },
+    {
+     "kind": "ActionNode",
+     "label": "RollAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_42",
+       "parent": "plan_2_node_7"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "RollMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_2_node_43",
+       "parent": "plan_2_node_7"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_44",
+       "parent": "plan_2_node_7"
+      }
+     ],
+     "id": "plan_2_node_7",
+     "parent": "plan_2_node_0",
+     "start": 7699,
+     "end": 7815
+    },
+    {
+     "kind": "ActionNode",
+     "label": "NavigateAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_45",
+       "parent": "plan_2_node_8"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "MoveMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_2_node_46",
+       "parent": "plan_2_node_8"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_47",
+       "parent": "plan_2_node_8"
+      }
+     ],
+     "id": "plan_2_node_8",
+     "parent": "plan_2_node_0",
+     "start": 7817,
+     "end": 8518
+    },
+    {
+     "kind": "ActionNode",
+     "label": "RollAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_48",
+       "parent": "plan_2_node_9"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "RollMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_2_node_49",
+       "parent": "plan_2_node_9"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_50",
+       "parent": "plan_2_node_9"
+      }
+     ],
+     "id": "plan_2_node_9",
+     "parent": "plan_2_node_0",
+     "start": 8520,
+     "end": 8636
+    },
+    {
+     "kind": "ActionNode",
+     "label": "PlaceAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_57",
+       "parent": "plan_2_node_10"
+      },
+      {
+       "kind": "SequentialNode",
+       "label": "SequentialNode",
+       "status": "SUCCEEDED",
+       "children": [
+        {
+         "kind": "MotionNode",
+         "label": "MovePlacementMotion",
+         "status": "SUCCEEDED",
+         "children": [],
+         "arm": "LEFT",
+         "id": "plan_2_node_51",
+         "parent": "plan_2_node_33"
+        },
+        {
+         "kind": "MotionNode",
+         "label": "MovePlacementMotion",
+         "status": "SUCCEEDED",
+         "children": [],
+         "arm": "LEFT",
+         "id": "plan_2_node_52",
+         "parent": "plan_2_node_33"
+        },
+        {
+         "kind": "MotionNode",
+         "label": "MoveGripperMotion",
+         "status": "SUCCEEDED",
+         "children": [],
+         "arm": "LEFT",
+         "id": "plan_2_node_53",
+         "parent": "plan_2_node_33"
+        },
+        {
+         "kind": "DetachNode",
+         "label": "DetachNode",
+         "status": "SUCCEEDED",
+         "children": [],
+         "id": "plan_2_node_54",
+         "parent": "plan_2_node_33"
+        },
+        {
+         "kind": "MotionNode",
+         "label": "MovePlacementMotion",
+         "status": "SUCCEEDED",
+         "children": [],
+         "arm": "LEFT",
+         "id": "plan_2_node_55",
+         "parent": "plan_2_node_33"
+        }
+       ],
+       "id": "plan_2_node_33",
+       "parent": "plan_2_node_10"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_58",
+       "parent": "plan_2_node_10"
+      }
+     ],
+     "target": "0268accf-88cb-49d0-b8d2-7cf273bdaa7c",
+     "arm": "LEFT",
+     "id": "plan_2_node_10",
+     "parent": "plan_2_node_0",
+     "start": 8638,
+     "end": 10005
+    },
+    {
+     "kind": "ActionNode",
+     "label": "ParkArmsAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_59",
+       "parent": "plan_2_node_11"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "MoveJointsMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_2_node_60",
+       "parent": "plan_2_node_11"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_61",
+       "parent": "plan_2_node_11"
+      }
+     ],
+     "arm": "BOTH",
+     "id": "plan_2_node_11",
+     "parent": "plan_2_node_0",
+     "start": 10007,
+     "end": 10069
+    },
+    {
+     "kind": "ActionNode",
+     "label": "RollAction",
+     "status": "SUCCEEDED",
+     "children": [
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_62",
+       "parent": "plan_2_node_12"
+      },
+      {
+       "kind": "MotionNode",
+       "label": "RollMotion",
+       "status": "SUCCEEDED",
+       "children": [],
+       "id": "plan_2_node_63",
+       "parent": "plan_2_node_12"
+      },
+      {
+       "kind": "ConditionNode",
+       "label": "ConditionNode",
+       "status": "CREATED",
+       "children": [],
+       "id": "plan_2_node_64",
+       "parent": "plan_2_node_12"
+      }
+     ],
+     "id": "plan_2_node_12",
+     "parent": "plan_2_node_0",
+     "start": 10072,
+     "end": 10166
+    }
+   ],
+   "id": "plan_2_node_0",
+   "start": 3114,
+   "end": 10166,
+   "robot": "Stretch"
+  }
+ ],
+ "actions": [],
+ "detectedEvents": [],
+ "missingAssets": [],
+ "task": "TIAGo: A08 + A09 -> in-feed (B00, B01); Stretch: R01 -> A10",
+ "environmentName": "Small Warehouse Twin",
+ "camera": {
+  "position": [
+   18.5,
+   5.0,
+   5.5
+  ],
+  "target": [
+   9.5,
+   5.3,
+   0.4
+  ],
+  "fov": 55.0
+ },
+ "rendering": {
+  "exposure": 0.72,
+  "ambientOcclusion": false,
+  "groundPlane": false,
+  "shadowBounds": [
+   [
+    1.0225,
+    2.854,
+    0.0009
+   ],
+   [
+    19.8167,
+    14.5294,
+    3.836
+   ]
+  ],
+  "environment": "lighting.json"
+ }
+}

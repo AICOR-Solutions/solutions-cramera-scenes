@@ -1,0 +1,818 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="stretch_04284f6532c945f098f6ac3ea2eeda6e">
+  <link name="world_root" />
+  <link name="stretch_description/base_link">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/base_link.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/base_link#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/base_link.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="world_root_to_stretch_description/base_link" type="fixed">
+    <parent link="world_root" />
+    <child link="stretch_description/base_link" />
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+  </joint>
+  <link name="stretch_description/base_imu">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/base_imu.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/base_imu#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/base_imu.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_base_imu" type="fixed">
+    <parent link="stretch_description/base_link" />
+    <child link="stretch_description/base_imu" />
+    <origin xyz="-0.12838 0.003159 0.1474" rpy="3.141585 0.0 -1.5708" />
+  </joint>
+  <link name="stretch_description/laser">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/laser.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/laser#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/laser.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_laser" type="fixed">
+    <parent link="stretch_description/base_link" />
+    <child link="stretch_description/laser" />
+    <origin xyz="0.004 0.0 0.1664" rpy="0.0 0.0 -3.141585" />
+  </joint>
+  <link name="stretch_description/link_aruco_left_base">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_aruco_left_base.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_aruco_left_base#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_aruco_left_base.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_aruco_left_base" type="fixed">
+    <parent link="stretch_description/base_link" />
+    <child link="stretch_description/link_aruco_left_base" />
+    <origin xyz="-0.005 0.130497 0.159748" rpy="0.0 0.0 -1.570796" />
+  </joint>
+  <link name="stretch_description/link_aruco_right_base">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_aruco_right_base.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_aruco_right_base#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_aruco_right_base.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_aruco_right_base" type="fixed">
+    <parent link="stretch_description/base_link" />
+    <child link="stretch_description/link_aruco_right_base" />
+    <origin xyz="-0.001503 -0.130497 0.159748" rpy="0.0 0.0 -1.570796" />
+  </joint>
+  <link name="stretch_description/link_mast">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_mast.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_mast#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_mast.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_mast" type="fixed">
+    <parent link="stretch_description/base_link" />
+    <child link="stretch_description/link_mast" />
+    <origin xyz="-0.067 0.135 0.0284" rpy="1.5708 0.0 0.0" />
+  </joint>
+  <link name="stretch_description/respeaker_base">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/respeaker_base.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/respeaker_base#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/respeaker_base.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_respeaker" type="fixed">
+    <parent link="stretch_description/link_mast" />
+    <child link="stretch_description/respeaker_base" />
+    <origin xyz="0.0 1.372364 0.003031" rpy="-1.570796 -0.698132 0.0" />
+  </joint>
+  <link name="stretch_description/link_head">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_head.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_head#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_head.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_head" type="fixed">
+    <parent link="stretch_description/link_mast" />
+    <child link="stretch_description/link_head" />
+    <origin xyz="-0.0 1.33 0.0" rpy="-1.570789 -1.570796 0.0" />
+  </joint>
+  <link name="stretch_description/link_head_pan">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_head_pan.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_head_pan#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_head_pan.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_head_pan" type="revolute">
+    <parent link="stretch_description/link_head" />
+    <child link="stretch_description/link_head_pan" />
+    <origin xyz="0.135 0.0731 -0.003196" rpy="0.0 0.0 1.570796" />
+    <axis xyz="0.0 0.0 1.0" />
+    <limit lower="-3.9" upper="1.5" velocity="0.5" effort="0.0" />
+  </joint>
+  <link name="stretch_description/link_head_tilt">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_head_tilt.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_head_tilt#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_head_tilt.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_head_tilt" type="revolute">
+    <parent link="stretch_description/link_head_pan" />
+    <child link="stretch_description/link_head_tilt" />
+    <origin xyz="-0.0013 0.027762 -0.053311" rpy="1.570796 0.0 -0.0" />
+    <axis xyz="0.0 0.0 1.0" />
+    <limit lower="-1.53" upper="0.79" velocity="0.5" effort="0.0" />
+  </joint>
+  <link name="stretch_description/camera_bottom_screw_frame" />
+  <joint name="stretch_description/camera_joint" type="fixed">
+    <parent link="stretch_description/link_head_tilt" />
+    <child link="stretch_description/camera_bottom_screw_frame" />
+    <origin xyz="0.03 -0.0122 0.0182" rpy="0.0 0.0 0.0" />
+  </joint>
+  <link name="stretch_description/camera_link">
+    <visual>
+      <origin xyz="0.0043 -0.0175 0.0" rpy="1.570796 0.0 1.570796" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-479f8f62/d435.dae" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/camera_link#0">
+        <color rgba="1.0 1.0 1.0 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 -0.0175 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <box size="0.02505 0.09 0.025" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/camera_link_joint" type="fixed">
+    <parent link="stretch_description/camera_bottom_screw_frame" />
+    <child link="stretch_description/camera_link" />
+    <origin xyz="0.0106 0.0175 0.0125" rpy="0.0 0.0 0.0" />
+  </joint>
+  <link name="stretch_description/camera_gyro_frame" />
+  <joint name="stretch_description/camera_gyro_joint" type="fixed">
+    <parent link="stretch_description/camera_link" />
+    <child link="stretch_description/camera_gyro_frame" />
+    <origin xyz="-0.01174 -0.00552 0.0051" rpy="0.0 0.0 0.0" />
+  </joint>
+  <link name="stretch_description/camera_gyro_optical_frame" />
+  <joint name="stretch_description/camera_gyro_optical_joint" type="fixed">
+    <parent link="stretch_description/camera_gyro_frame" />
+    <child link="stretch_description/camera_gyro_optical_frame" />
+    <origin xyz="0.0 0.0 0.0" rpy="-1.570796 0.0 -1.570796" />
+  </joint>
+  <link name="stretch_description/camera_accel_frame" />
+  <joint name="stretch_description/camera_accel_joint" type="fixed">
+    <parent link="stretch_description/camera_link" />
+    <child link="stretch_description/camera_accel_frame" />
+    <origin xyz="-0.01174 -0.00552 0.0051" rpy="0.0 0.0 0.0" />
+  </joint>
+  <link name="stretch_description/camera_accel_optical_frame" />
+  <joint name="stretch_description/camera_accel_optical_joint" type="fixed">
+    <parent link="stretch_description/camera_accel_frame" />
+    <child link="stretch_description/camera_accel_optical_frame" />
+    <origin xyz="0.0 0.0 0.0" rpy="-1.570796 0.0 -1.570796" />
+  </joint>
+  <link name="stretch_description/camera_color_frame" />
+  <joint name="stretch_description/camera_color_joint" type="fixed">
+    <parent link="stretch_description/camera_link" />
+    <child link="stretch_description/camera_color_frame" />
+    <origin xyz="0.0 0.015 -0.0" rpy="0.0 0.0 0.0" />
+  </joint>
+  <link name="stretch_description/camera_color_optical_frame" />
+  <joint name="stretch_description/camera_color_optical_joint" type="fixed">
+    <parent link="stretch_description/camera_color_frame" />
+    <child link="stretch_description/camera_color_optical_frame" />
+    <origin xyz="0.0 0.0 0.0" rpy="-1.570796 0.0 -1.570796" />
+  </joint>
+  <link name="stretch_description/camera_infra2_frame" />
+  <joint name="stretch_description/camera_infra2_joint" type="fixed">
+    <parent link="stretch_description/camera_link" />
+    <child link="stretch_description/camera_infra2_frame" />
+    <origin xyz="0.0 -0.05 0.0" rpy="0.0 0.0 0.0" />
+  </joint>
+  <link name="stretch_description/camera_infra2_optical_frame" />
+  <joint name="stretch_description/camera_infra2_optical_joint" type="fixed">
+    <parent link="stretch_description/camera_infra2_frame" />
+    <child link="stretch_description/camera_infra2_optical_frame" />
+    <origin xyz="0.0 0.0 0.0" rpy="-1.570796 0.0 -1.570796" />
+  </joint>
+  <link name="stretch_description/camera_infra1_frame" />
+  <joint name="stretch_description/camera_infra1_joint" type="fixed">
+    <parent link="stretch_description/camera_link" />
+    <child link="stretch_description/camera_infra1_frame" />
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+  </joint>
+  <link name="stretch_description/camera_infra1_optical_frame" />
+  <joint name="stretch_description/camera_infra1_optical_joint" type="fixed">
+    <parent link="stretch_description/camera_infra1_frame" />
+    <child link="stretch_description/camera_infra1_optical_frame" />
+    <origin xyz="0.0 0.0 0.0" rpy="-1.570796 0.0 -1.570796" />
+  </joint>
+  <link name="stretch_description/camera_depth_frame" />
+  <joint name="stretch_description/camera_depth_joint" type="fixed">
+    <parent link="stretch_description/camera_link" />
+    <child link="stretch_description/camera_depth_frame" />
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+  </joint>
+  <link name="stretch_description/camera_depth_optical_frame" />
+  <joint name="stretch_description/camera_depth_optical_joint" type="fixed">
+    <parent link="stretch_description/camera_depth_frame" />
+    <child link="stretch_description/camera_depth_optical_frame" />
+    <origin xyz="0.0 0.0 0.0" rpy="-1.570796 0.0 -1.570796" />
+  </joint>
+  <link name="stretch_description/link_lift">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_lift.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_lift#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_lift.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_lift" type="prismatic">
+    <parent link="stretch_description/link_mast" />
+    <child link="stretch_description/link_lift" />
+    <origin xyz="-0.037385 0.1666 0.0" rpy="1.570793 1.570793 -3.141593" />
+    <axis xyz="0.0 0.0 1.0" />
+    <limit lower="0.0" upper="1.1" velocity="0.1" effort="0.0" />
+  </joint>
+  <link name="stretch_description/link_aruco_shoulder">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_aruco_shoulder.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_aruco_shoulder#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_aruco_shoulder.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_aruco_shoulder" type="fixed">
+    <parent link="stretch_description/link_lift" />
+    <child link="stretch_description/link_aruco_shoulder" />
+    <origin xyz="-0.013377 0.055854 0.086137" rpy="0.0 0.0 0.0" />
+  </joint>
+  <link name="stretch_description/link_arm_l4">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_arm_l4.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_arm_l4#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_arm_l4.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_arm_l4" type="fixed">
+    <parent link="stretch_description/link_lift" />
+    <child link="stretch_description/link_arm_l4" />
+    <origin xyz="-0.2547 0.0 0.0" rpy="1.5708 0.0 -1.5708" />
+  </joint>
+  <link name="stretch_description/link_arm_l3">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_arm_l3.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_arm_l3#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_arm_l3.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_arm_l3" type="prismatic">
+    <parent link="stretch_description/link_arm_l4" />
+    <child link="stretch_description/link_arm_l3" />
+    <origin xyz="0.0 0.0 0.013" rpy="0.0 0.0 0.0" />
+    <axis xyz="0.0 0.0 1.0" />
+    <limit lower="0.0" upper="0.13" velocity="0.1" effort="0.0" />
+  </joint>
+  <link name="stretch_description/link_arm_l2">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_arm_l2.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_arm_l2#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_arm_l2.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_arm_l2" type="prismatic">
+    <parent link="stretch_description/link_arm_l3" />
+    <child link="stretch_description/link_arm_l2" />
+    <origin xyz="0.0 0.0 0.013" rpy="0.0 0.0 -0.0" />
+    <axis xyz="0.0 0.0 1.0" />
+    <limit lower="0.0" upper="0.13" velocity="0.1" effort="0.0" />
+  </joint>
+  <link name="stretch_description/link_arm_l1">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_arm_l1.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_arm_l1#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_arm_l1.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_arm_l1" type="prismatic">
+    <parent link="stretch_description/link_arm_l2" />
+    <child link="stretch_description/link_arm_l1" />
+    <origin xyz="0.0 0.0 0.013" rpy="-0.0 0.0 0.0" />
+    <axis xyz="0.0 0.0 1.0" />
+    <limit lower="0.0" upper="0.13" velocity="0.1" effort="0.0" />
+  </joint>
+  <link name="stretch_description/link_arm_l0">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_arm_l0.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_arm_l0#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_arm_l0.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_arm_l0" type="prismatic">
+    <parent link="stretch_description/link_arm_l1" />
+    <child link="stretch_description/link_arm_l0" />
+    <origin xyz="0.0 0.0 -0.01375" rpy="0.0 -0.0 0.0" />
+    <axis xyz="0.0 0.0 1.0" />
+    <limit lower="0.0" upper="0.13" velocity="0.1" effort="0.0" />
+  </joint>
+  <link name="stretch_description/link_aruco_inner_wrist">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_aruco_inner_wrist.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_aruco_inner_wrist#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_aruco_inner_wrist.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_aruco_inner_wrist" type="fixed">
+    <parent link="stretch_description/link_arm_l0" />
+    <child link="stretch_description/link_aruco_inner_wrist" />
+    <origin xyz="0.04725 -0.0119 -0.02725" rpy="3.141593 0.0 3.141593" />
+  </joint>
+  <link name="stretch_description/link_aruco_top_wrist">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_aruco_top_wrist.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_aruco_top_wrist#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_aruco_top_wrist.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_aruco_top_wrist" type="fixed">
+    <parent link="stretch_description/link_arm_l0" />
+    <child link="stretch_description/link_aruco_top_wrist" />
+    <origin xyz="0.04725 0.029285 0.0" rpy="1.570796 -0.0 3.141593" />
+  </joint>
+  <link name="stretch_description/link_wrist_yaw">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_wrist_yaw.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_wrist_yaw#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_wrist_yaw.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_wrist_yaw" type="revolute">
+    <parent link="stretch_description/link_arm_l0" />
+    <child link="stretch_description/link_wrist_yaw" />
+    <origin xyz="0.083 -0.03075 0.0" rpy="1.5708 0.0 0.0" />
+    <axis xyz="0.0 0.0 -1.0" />
+    <limit lower="-1.75" upper="4.0" velocity="0.4" effort="0.0" />
+  </joint>
+  <link name="stretch_description/link_wrist_yaw_bottom">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_wrist_yaw_bottom.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_wrist_yaw_bottom#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_wrist_yaw_bottom.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_wrist_yaw_bottom" type="fixed">
+    <parent link="stretch_description/link_wrist_yaw" />
+    <child link="stretch_description/link_wrist_yaw_bottom" />
+    <origin xyz="0.0 0.0 0.0" rpy="-3.141593 0.0 1.570796" />
+  </joint>
+  <link name="stretch_description/link_wrist_pitch">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_wrist_pitch.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_wrist_pitch#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_wrist_pitch.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_wrist_pitch" type="revolute">
+    <parent link="stretch_description/link_wrist_yaw_bottom" />
+    <child link="stretch_description/link_wrist_pitch" />
+    <origin xyz="0.0 -0.01955 -0.02475" rpy="1.570796 -0.0 -3.141593" />
+    <axis xyz="0.0 0.0 -1.0" />
+    <limit lower="-1.57" upper="0.56" velocity="0.1" effort="0.0" />
+  </joint>
+  <link name="stretch_description/link_wrist_roll">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_wrist_roll.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_wrist_roll#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_wrist_roll.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_wrist_roll" type="revolute">
+    <parent link="stretch_description/link_wrist_pitch" />
+    <child link="stretch_description/link_wrist_roll" />
+    <origin xyz="-0.018859 -0.024 0.01955" rpy="3.141593 1.570796 0.0" />
+    <axis xyz="0.0 0.0 1.0" />
+    <limit lower="-3.14" upper="3.14" velocity="0.1" effort="0.0" />
+  </joint>
+  <link name="stretch_description/link_straight_gripper">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_straight_gripper.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_straight_gripper#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_straight_gripper.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_straight_gripper" type="fixed">
+    <parent link="stretch_description/link_wrist_roll" />
+    <child link="stretch_description/link_straight_gripper" />
+    <origin xyz="0.0 0.0 0.0155" rpy="0.0 0.0 -3.141593" />
+  </joint>
+  <link name="stretch_description/link_grasp_center" />
+  <joint name="stretch_description/joint_grasp_center" type="fixed">
+    <parent link="stretch_description/link_straight_gripper" />
+    <child link="stretch_description/link_grasp_center" />
+    <origin xyz="0.0 -0.0 0.23" rpy="-1.570796 -1.570796 0.0" />
+  </joint>
+  <link name="stretch_description/link_gripper_finger_left">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="3.141593 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_gripper_finger_left.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_gripper_finger_left#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="1.570796 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_gripper_finger_left.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_gripper_finger_left" type="revolute">
+    <parent link="stretch_description/link_straight_gripper" />
+    <child link="stretch_description/link_gripper_finger_left" />
+    <origin xyz="0.018599 0.003 0.033689" rpy="-1.570793 -1.570793 -3.141593" />
+    <axis xyz="0.0 0.0 -1.0" />
+    <limit lower="-0.6" upper="0.6" velocity="0.0067" effort="0.0" />
+  </joint>
+  <link name="stretch_description/link_gripper_fingertip_left">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_gripper_fingertip_left.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_gripper_fingertip_left#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_gripper_fingertip_left.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_gripper_fingertip_left" type="fixed">
+    <parent link="stretch_description/link_gripper_finger_left" />
+    <child link="stretch_description/link_gripper_fingertip_left" />
+    <origin xyz="0.190597 -0.015 0.0" rpy="1.570796 0.0 2.601137" />
+  </joint>
+  <link name="stretch_description/link_gripper_finger_right">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_gripper_finger_right.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_gripper_finger_right#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_gripper_finger_right.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_gripper_finger_right" type="revolute">
+    <parent link="stretch_description/link_straight_gripper" />
+    <child link="stretch_description/link_gripper_finger_right" />
+    <origin xyz="-0.018599 0.003 0.033689" rpy="-1.570793 1.570793 3.141593" />
+    <axis xyz="0.0 0.0 1.0" />
+    <limit lower="-0.6" upper="0.6" velocity="0.0067" effort="0.0" />
+  </joint>
+  <link name="stretch_description/link_gripper_fingertip_right">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_gripper_fingertip_right.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_gripper_fingertip_right#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_gripper_fingertip_right.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_gripper_fingertip_right" type="fixed">
+    <parent link="stretch_description/link_gripper_finger_right" />
+    <child link="stretch_description/link_gripper_fingertip_right" />
+    <origin xyz="-0.190597 -0.015 0.0" rpy="-1.570796 -0.0 0.540456" />
+  </joint>
+  <link name="stretch_description/caster_link">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/omni_wheel_m.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/caster_link#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <sphere radius="0.032" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/caster_joint" type="fixed">
+    <parent link="stretch_description/base_link" />
+    <child link="stretch_description/caster_link" />
+    <origin xyz="-0.245 0.0 0.032" rpy="-1.570796 0.0 0.0" />
+  </joint>
+  <link name="stretch_description/link_left_wheel">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_left_wheel.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_left_wheel#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_left_wheel.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_left_wheel" type="continuous">
+    <parent link="stretch_description/base_link" />
+    <child link="stretch_description/link_left_wheel" />
+    <origin xyz="0.0 0.17035 0.0508" rpy="-1.5708 0.0 0.0" />
+    <axis xyz="0.0 0.0 1.0" />
+  </joint>
+  <link name="stretch_description/link_right_wheel">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_right_wheel.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="stretch_description/link_right_wheel#0">
+        <color rgba="0.79216 0.81961 0.93333 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-01c9a6a8/link_right_wheel.STL" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="stretch_description/joint_right_wheel" type="continuous">
+    <parent link="stretch_description/base_link" />
+    <child link="stretch_description/link_right_wheel" />
+    <origin xyz="0.0 -0.17035 0.0508" rpy="-1.5708 0.0 0.0" />
+    <axis xyz="0.0 0.0 1.0" />
+  </joint>
+</robot>
