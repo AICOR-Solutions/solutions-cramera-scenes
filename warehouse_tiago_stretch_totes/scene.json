@@ -14,13 +14,13 @@
    "movableJoints": [],
    "preserveMaterials": true,
    "posedJoints": [
-    "e352aac8-5b24-4d7e-9bf5-365512cf710b/map_T_odom",
-    "6404d406-4935-4ad1-8639-137749d23c8c/map_T_odom"
+    "fddcc0dc-77fe-4358-8424-d76119505e90/map_T_odom",
+    "b0140898-e215-495d-b5ed-96815bdb0d90/map_T_odom"
    ]
   },
   {
-   "name": "tiago_01f0629227a64bd3891e1bf7c58230dc",
-   "urdf": "tiago_01f0629227a64bd3891e1bf7c58230dc.urdf",
+   "name": "tiago_bf1eeb1d694f4cca964143141cbc066d",
+   "urdf": "tiago_bf1eeb1d694f4cca964143141cbc066d.urdf",
    "prefix": "",
    "robot": true,
    "links": 103,
@@ -58,20 +58,20 @@
     "tiago_dual/wheel_right_joint"
    ],
    "posedJoints": [],
-   "identifier": "01f06292-27a6-4bd3-891e-1bf7c58230dc",
+   "identifier": "bf1eeb1d-694f-4cca-9641-43141cbc066d",
    "pose": [
-    14.19292,
-    3.57431,
+    14.19873,
+    3.71274,
     0.0,
     0.0,
     0.0,
-    0.0367,
-    0.99933
+    -0.05699,
+    0.99837
    ]
   },
   {
-   "name": "stretch_04284f6532c945f098f6ac3ea2eeda6e",
-   "urdf": "stretch_04284f6532c945f098f6ac3ea2eeda6e.urdf",
+   "name": "stretch_6679361b8bfc4e76b861deb96ed1f4cc",
+   "urdf": "stretch_6679361b8bfc4e76b861deb96ed1f4cc.urdf",
    "prefix": "",
    "robot": true,
    "links": 47,
@@ -92,20 +92,20 @@
     "stretch_description/joint_right_wheel"
    ],
    "posedJoints": [],
-   "identifier": "04284f65-32c9-45f0-98f6-ac3ea2eeda6e",
+   "identifier": "6679361b-8bfc-4e76-b861-deb96ed1f4cc",
    "pose": [
     10.50748,
-    5.56632,
+    5.56633,
     0.0,
     0.0,
     0.0,
-    0.05349,
+    0.05348,
     0.99857
    ]
   }
  ],
  "robot": {
-  "name": "stretch_04284f6532c945f098f6ac3ea2eeda6e",
+  "name": "stretch",
   "prefix": "",
   "baseBody": "stretch_description/base_link",
   "parts": {
@@ -161,13 +161,13 @@
     "attachedTo": "StretchArm"
    }
   ],
-  "identifier": "04284f65-32c9-45f0-98f6-ac3ea2eeda6e",
+  "identifier": "6679361b-8bfc-4e76-b861-deb96ed1f4cc",
   "label": "Stretch"
  },
  "objects": [
   {
    "id": "A00",
-   "key": "f40a4154-d34f-4c59-a43f-cc21fa7873b5",
+   "key": "3957db85-9147-4882-b4c4-ea45809e838b",
    "spawn": [
     6.34,
     5.0,
@@ -179,11 +179,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/f40a4154-d34f-4c59-a43f-cc21fa7873b5/A00.glb"
+   "mesh": "meshes/objects/3957db85-9147-4882-b4c4-ea45809e838b/A00.glb"
   },
   {
    "id": "A01",
-   "key": "f4efa1f3-0c58-4b71-b030-8028f4af6eae",
+   "key": "2b2af219-1f1e-48fd-b951-45320a2aa37f",
    "spawn": [
     6.79,
     5.0,
@@ -195,11 +195,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/f4efa1f3-0c58-4b71-b030-8028f4af6eae/A01.glb"
+   "mesh": "meshes/objects/2b2af219-1f1e-48fd-b951-45320a2aa37f/A01.glb"
   },
   {
    "id": "A02",
-   "key": "27aa128d-f6b4-407e-b067-13a82d6db976",
+   "key": "d796dc8d-969b-44b8-b346-60c5a08a4aeb",
    "spawn": [
     7.24,
     5.0,
@@ -211,11 +211,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/27aa128d-f6b4-407e-b067-13a82d6db976/A02.glb"
+   "mesh": "meshes/objects/d796dc8d-969b-44b8-b346-60c5a08a4aeb/A02.glb"
   },
   {
    "id": "A03",
-   "key": "dd71c025-ab53-4736-8fd5-ea17522d2f9d",
+   "key": "68032727-cbc8-4115-9a9c-078c1f3ea9de",
    "spawn": [
     7.69,
     5.0,
@@ -227,11 +227,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/dd71c025-ab53-4736-8fd5-ea17522d2f9d/A03.glb"
+   "mesh": "meshes/objects/68032727-cbc8-4115-9a9c-078c1f3ea9de/A03.glb"
   },
   {
    "id": "A04",
-   "key": "fa48e026-5500-433e-a7c8-0268165e437d",
+   "key": "7aa786d0-0c10-4ad8-8e5b-1029fafa6314",
    "spawn": [
     8.37,
     5.0,
@@ -243,11 +243,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/fa48e026-5500-433e-a7c8-0268165e437d/A04.glb"
+   "mesh": "meshes/objects/7aa786d0-0c10-4ad8-8e5b-1029fafa6314/A04.glb"
   },
   {
    "id": "A05",
-   "key": "59649b33-a069-4c9b-8ece-f8dff7728564",
+   "key": "7d12af9a-52fc-44a4-95ba-d5141ed1bd56",
    "spawn": [
     8.82,
     5.0,
@@ -259,11 +259,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/59649b33-a069-4c9b-8ece-f8dff7728564/A05.glb"
+   "mesh": "meshes/objects/7d12af9a-52fc-44a4-95ba-d5141ed1bd56/A05.glb"
   },
   {
    "id": "A06",
-   "key": "82d9324b-121b-451b-be75-fb22ad0766fa",
+   "key": "cd80bfe8-52dd-4fc4-93e9-a766955b0adf",
    "spawn": [
     9.27,
     5.0,
@@ -275,11 +275,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/82d9324b-121b-451b-be75-fb22ad0766fa/A06.glb"
+   "mesh": "meshes/objects/cd80bfe8-52dd-4fc4-93e9-a766955b0adf/A06.glb"
   },
   {
    "id": "A07",
-   "key": "07fd273c-d310-4fd0-8512-7da7350b94a3",
+   "key": "54f8fb47-5f3b-4ea3-b236-9e57e785e0c5",
    "spawn": [
     9.72,
     5.0,
@@ -291,11 +291,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/07fd273c-d310-4fd0-8512-7da7350b94a3/A07.glb"
+   "mesh": "meshes/objects/54f8fb47-5f3b-4ea3-b236-9e57e785e0c5/A07.glb"
   },
   {
    "id": "A08",
-   "key": "f073edc2-c21c-48c9-8a38-be7374df7ff9",
+   "key": "658d61c5-d5e2-42d2-a170-468af484f833",
    "spawn": [
     10.4,
     5.0,
@@ -307,11 +307,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/f073edc2-c21c-48c9-8a38-be7374df7ff9/A08.glb"
+   "mesh": "meshes/objects/658d61c5-d5e2-42d2-a170-468af484f833/A08.glb"
   },
   {
    "id": "A09",
-   "key": "a90426b5-f08e-4878-a280-326c25cd547e",
+   "key": "587b3d93-e9d6-496a-9f56-092b688c3654",
    "spawn": [
     10.85,
     5.0,
@@ -323,11 +323,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/a90426b5-f08e-4878-a280-326c25cd547e/A09.glb"
+   "mesh": "meshes/objects/587b3d93-e9d6-496a-9f56-092b688c3654/A09.glb"
   },
   {
    "id": "R00",
-   "key": "03a47e6a-89ed-4c35-a273-fad75e872aac",
+   "key": "f7075f00-3c1b-4cba-8fa5-b535a9333c80",
    "spawn": [
     6.34,
     7.23,
@@ -339,11 +339,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/03a47e6a-89ed-4c35-a273-fad75e872aac/R00.glb"
+   "mesh": "meshes/objects/f7075f00-3c1b-4cba-8fa5-b535a9333c80/R00.glb"
   },
   {
    "id": "R01",
-   "key": "0268accf-88cb-49d0-b8d2-7cf273bdaa7c",
+   "key": "9329e045-9e4e-4404-840c-3260a374a8f1",
    "spawn": [
     6.79,
     7.23,
@@ -355,11 +355,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/0268accf-88cb-49d0-b8d2-7cf273bdaa7c/R01.glb"
+   "mesh": "meshes/objects/9329e045-9e4e-4404-840c-3260a374a8f1/R01.glb"
   },
   {
    "id": "R02",
-   "key": "092d86d4-46f8-4a96-b2ae-437d968d9f5f",
+   "key": "bcd82031-d3c9-49bc-8fb3-a5cacd26a4e4",
    "spawn": [
     7.24,
     7.23,
@@ -371,11 +371,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/092d86d4-46f8-4a96-b2ae-437d968d9f5f/R02.glb"
+   "mesh": "meshes/objects/bcd82031-d3c9-49bc-8fb3-a5cacd26a4e4/R02.glb"
   },
   {
    "id": "R04",
-   "key": "0adeec23-dbf2-4d27-9826-5bf1d6776756",
+   "key": "3c60687c-293f-4f25-a78a-8687430f0d3b",
    "spawn": [
     8.37,
     7.23,
@@ -387,11 +387,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/0adeec23-dbf2-4d27-9826-5bf1d6776756/R04.glb"
+   "mesh": "meshes/objects/3c60687c-293f-4f25-a78a-8687430f0d3b/R04.glb"
   },
   {
    "id": "R05",
-   "key": "8f679979-1c2e-4e2c-a5f8-3257752c507c",
+   "key": "aa352ade-e3c2-433d-92eb-e0446317a48d",
    "spawn": [
     8.82,
     7.23,
@@ -403,11 +403,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/8f679979-1c2e-4e2c-a5f8-3257752c507c/R05.glb"
+   "mesh": "meshes/objects/aa352ade-e3c2-433d-92eb-e0446317a48d/R05.glb"
   },
   {
    "id": "R06",
-   "key": "15eadfbd-9a43-45b9-a5fe-c71347addf78",
+   "key": "cafffa4c-82db-43a5-8434-b4b5cf5ca103",
    "spawn": [
     9.27,
     7.23,
@@ -419,11 +419,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/15eadfbd-9a43-45b9-a5fe-c71347addf78/R06.glb"
+   "mesh": "meshes/objects/cafffa4c-82db-43a5-8434-b4b5cf5ca103/R06.glb"
   },
   {
    "id": "R07",
-   "key": "3357fc1f-a72e-4afb-8b20-a89bb7d1f7e9",
+   "key": "864206b5-89e1-4518-bb96-c1ec5a629fc4",
    "spawn": [
     9.72,
     7.23,
@@ -435,11 +435,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/3357fc1f-a72e-4afb-8b20-a89bb7d1f7e9/R07.glb"
+   "mesh": "meshes/objects/864206b5-89e1-4518-bb96-c1ec5a629fc4/R07.glb"
   },
   {
    "id": "R08",
-   "key": "092a32c0-9086-4ff4-8811-98d56efae6da",
+   "key": "9b4ece29-08ab-4ad5-9384-0c25155774ac",
    "spawn": [
     10.4,
     7.23,
@@ -451,11 +451,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/092a32c0-9086-4ff4-8811-98d56efae6da/R08.glb"
+   "mesh": "meshes/objects/9b4ece29-08ab-4ad5-9384-0c25155774ac/R08.glb"
   },
   {
    "id": "R10",
-   "key": "731688f6-95f4-4e58-83e1-5b7ce9609c5c",
+   "key": "238bfe9a-b8a2-4509-a3f8-fbbb07916681",
    "spawn": [
     11.3,
     7.23,
@@ -467,11 +467,11 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/731688f6-95f4-4e58-83e1-5b7ce9609c5c/R10.glb"
+   "mesh": "meshes/objects/238bfe9a-b8a2-4509-a3f8-fbbb07916681/R10.glb"
   },
   {
    "id": "R11",
-   "key": "4980181f-2172-48c7-9afd-137f645d48a9",
+   "key": "5879b752-0299-4d88-a7c3-4b91fc9b9edb",
    "spawn": [
     11.75,
     7.23,
@@ -483,7 +483,7 @@
    ],
    "color": "#ffffff",
    "height": 0.218,
-   "mesh": "meshes/objects/4980181f-2172-48c7-9afd-137f645d48a9/R11.glb"
+   "mesh": "meshes/objects/5879b752-0299-4d88-a7c3-4b91fc9b9edb/R11.glb"
   }
  ],
  "segments": [
@@ -496,25 +496,25 @@
    "step": "RailPickUpAction",
    "start": 1131,
    "end": 1378,
-   "picks": "f073edc2-c21c-48c9-8a38-be7374df7ff9",
+   "picks": "658d61c5-d5e2-42d2-a170-468af484f833",
    "attach": 1131,
-   "detach": 2532
+   "detach": 2548
   },
   {
    "step": "RailPickUpAction",
    "start": 1378,
-   "end": 7530,
-   "picks": "a90426b5-f08e-4878-a280-326c25cd547e",
+   "end": 7525,
+   "picks": "587b3d93-e9d6-496a-9f56-092b688c3654",
    "attach": 1378,
-   "detach": 2795
+   "detach": 2789
   },
   {
    "step": "RailPickUpAction",
-   "start": 7530,
-   "end": 10167,
-   "picks": "0268accf-88cb-49d0-b8d2-7cf273bdaa7c",
-   "attach": 7530,
-   "detach": 8731
+   "start": 7525,
+   "end": 10162,
+   "picks": "9329e045-9e4e-4404-840c-3260a374a8f1",
+   "attach": 7525,
+   "detach": 8726
   }
  ],
  "planTrees": [
@@ -534,7 +534,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_15",
-       "parent": "plan_node_1"
+       "parent": "plan_node_1",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -542,7 +546,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_node_16",
-       "parent": "plan_node_1"
+       "parent": "plan_node_1",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -550,14 +558,34 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_17",
-       "parent": "plan_node_1"
+       "parent": "plan_node_1",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "arm": "BOTH",
      "id": "plan_node_1",
      "parent": "plan_node_0",
      "start": 1,
-     "end": 102
+     "end": 102,
+     "parameters": {
+      "arm": "BOTH"
+     },
+     "fields": [
+      {
+       "name": "max_joint_velocity",
+       "required": false
+      },
+      {
+       "name": "arm",
+       "required": true,
+       "kind": "enumeration"
+      }
+     ],
+     "constraints": [],
+     "poses": {}
     },
     {
      "kind": "ActionNode",
@@ -570,7 +598,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_18",
-       "parent": "plan_node_2"
+       "parent": "plan_node_2",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -578,7 +610,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_node_19",
-       "parent": "plan_node_2"
+       "parent": "plan_node_2",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -586,13 +622,54 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_20",
-       "parent": "plan_node_2"
+       "parent": "plan_node_2",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "id": "plan_node_2",
      "parent": "plan_node_0",
      "start": 106,
-     "end": 825
+     "end": 825,
+     "parameters": {
+      "target_location": "(10.625, 3.606, 0) yaw 90\u00b0 in map"
+     },
+     "fields": [
+      {
+       "name": "target_location",
+       "required": true,
+       "kind": "pose"
+      },
+      {
+       "name": "keep_joint_states",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      },
+      {
+       "name": "face_travel_direction",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      }
+     ],
+     "constraints": [],
+     "poses": {
+      "target_location": {
+       "pose": [
+        10.625,
+        3.606,
+        0.0,
+        0.0,
+        0.0,
+        0.70711,
+        0.70711
+       ],
+       "frame": "map"
+      }
+     }
     },
     {
      "kind": "ActionNode",
@@ -605,7 +682,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_21",
-       "parent": "plan_node_3"
+       "parent": "plan_node_3",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -613,7 +694,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_node_22",
-       "parent": "plan_node_3"
+       "parent": "plan_node_3",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -621,13 +706,54 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_23",
-       "parent": "plan_node_3"
+       "parent": "plan_node_3",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "id": "plan_node_3",
      "parent": "plan_node_0",
      "start": 827,
-     "end": 944
+     "end": 944,
+     "parameters": {
+      "target_location": "(10.625, 4.406, 0) yaw 90\u00b0 in map"
+     },
+     "fields": [
+      {
+       "name": "target_location",
+       "required": true,
+       "kind": "pose"
+      },
+      {
+       "name": "keep_joint_states",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      },
+      {
+       "name": "face_travel_direction",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      }
+     ],
+     "constraints": [],
+     "poses": {
+      "target_location": {
+       "pose": [
+        10.625,
+        4.406,
+        0.0,
+        0.0,
+        0.0,
+        0.70711,
+        0.70711
+       ],
+       "frame": "map"
+      }
+     }
     },
     {
      "kind": "ActionNode",
@@ -640,7 +766,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_29",
-       "parent": "plan_node_4"
+       "parent": "plan_node_4",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "SequentialNode",
@@ -658,7 +788,11 @@
            "status": "CREATED",
            "children": [],
            "id": "plan_node_35",
-           "parent": "plan_node_24"
+           "parent": "plan_node_24",
+           "parameters": {},
+           "fields": [],
+           "constraints": [],
+           "poses": {}
           },
           {
            "kind": "SequentialNode",
@@ -672,7 +806,11 @@
              "children": [],
              "arm": "LEFT",
              "id": "plan_node_31",
-             "parent": "plan_node_28"
+             "parent": "plan_node_28",
+             "parameters": {},
+             "fields": [],
+             "constraints": [],
+             "poses": {}
             },
             {
              "kind": "MotionNode",
@@ -681,7 +819,11 @@
              "children": [],
              "arm": "LEFT",
              "id": "plan_node_32",
-             "parent": "plan_node_28"
+             "parent": "plan_node_28",
+             "parameters": {},
+             "fields": [],
+             "constraints": [],
+             "poses": {}
             },
             {
              "kind": "MotionNode",
@@ -690,11 +832,19 @@
              "children": [],
              "arm": "LEFT",
              "id": "plan_node_33",
-             "parent": "plan_node_28"
+             "parent": "plan_node_28",
+             "parameters": {},
+             "fields": [],
+             "constraints": [],
+             "poses": {}
             }
            ],
            "id": "plan_node_28",
-           "parent": "plan_node_24"
+           "parent": "plan_node_24",
+           "parameters": {},
+           "fields": [],
+           "constraints": [],
+           "poses": {}
           },
           {
            "kind": "ConditionNode",
@@ -702,15 +852,89 @@
            "status": "CREATED",
            "children": [],
            "id": "plan_node_36",
-           "parent": "plan_node_24"
+           "parent": "plan_node_24",
+           "parameters": {},
+           "fields": [],
+           "constraints": [],
+           "poses": {}
           }
          ],
-         "target": "f073edc2-c21c-48c9-8a38-be7374df7ff9",
+         "target": "A08",
          "arm": "LEFT",
          "id": "plan_node_24",
          "parent": "plan_node_14",
          "start": 946,
-         "end": 1089
+         "end": 1089,
+         "parameters": {
+          "target_pose": "(0, 0, 0.232) yaw 0\u00b0 in A08",
+          "arm": "LEFT",
+          "grasp_description": "approach direction FRONT, vertical alignment TOP, end effector TiagoLeftGripper, rotate gripper yes",
+          "object_designator": "A08 \u00b7 computer mouse box",
+          "open_gripper_at_pre_pose": "yes"
+         },
+         "fields": [
+          {
+           "name": "grasp_detection_threshold",
+           "required": false,
+           "default": "0.9",
+           "kind": "number"
+          },
+          {
+           "name": "pre_approach_linear_velocity",
+           "required": false
+          },
+          {
+           "name": "final_approach_linear_velocity",
+           "required": false
+          },
+          {
+           "name": "target_pose",
+           "required": true,
+           "kind": "pose"
+          },
+          {
+           "name": "arm",
+           "required": true,
+           "kind": "enumeration"
+          },
+          {
+           "name": "grasp_description",
+           "required": true,
+           "kind": "structure"
+          },
+          {
+           "name": "object_designator",
+           "required": false,
+           "kind": "entity"
+          },
+          {
+           "name": "reverse_reach_order",
+           "required": false,
+           "default": "no",
+           "kind": "boolean"
+          },
+          {
+           "name": "open_gripper_at_pre_pose",
+           "required": false,
+           "default": "no",
+           "kind": "boolean"
+          }
+         ],
+         "constraints": [],
+         "poses": {
+          "target_pose": {
+           "pose": [
+            0.0,
+            0.0,
+            0.23218,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+           ],
+           "frame": "A08"
+          }
+         }
         },
         {
          "kind": "MotionNode",
@@ -719,7 +943,11 @@
          "children": [],
          "arm": "LEFT",
          "id": "plan_node_25",
-         "parent": "plan_node_14"
+         "parent": "plan_node_14",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         },
         {
          "kind": "AttachNode",
@@ -727,7 +955,11 @@
          "status": "SUCCEEDED",
          "children": [],
          "id": "plan_node_26",
-         "parent": "plan_node_14"
+         "parent": "plan_node_14",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         },
         {
          "kind": "MotionNode",
@@ -736,13 +968,21 @@
          "children": [],
          "arm": "LEFT",
          "id": "plan_node_27",
-         "parent": "plan_node_14"
+         "parent": "plan_node_14",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         }
        ],
        "id": "plan_node_14",
        "parent": "plan_node_4",
        "start": 946,
-       "end": 1089
+       "end": 1089,
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -750,15 +990,98 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_30",
-       "parent": "plan_node_4"
+       "parent": "plan_node_4",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
-     "target": "f073edc2-c21c-48c9-8a38-be7374df7ff9",
+     "target": "A08",
      "arm": "LEFT",
      "id": "plan_node_4",
      "parent": "plan_node_0",
      "start": 946,
-     "end": 1138
+     "end": 1138,
+     "parameters": {
+      "object_designator": "A08 \u00b7 computer mouse box",
+      "arm": "LEFT",
+      "grasp_description": "approach direction FRONT, vertical alignment TOP, end effector TiagoLeftGripper, rotate gripper yes",
+      "rail_height": "0.179",
+      "tool_depth": "0.053",
+      "closed_fingers": "connections RevoluteConnection, target values 0.743, state type CLOSE, name PrefixedName"
+     },
+     "fields": [
+      {
+       "name": "grasp_detection_threshold",
+       "required": false,
+       "default": "0.9",
+       "kind": "number"
+      },
+      {
+       "name": "pre_approach_linear_velocity",
+       "required": false
+      },
+      {
+       "name": "final_approach_linear_velocity",
+       "required": false
+      },
+      {
+       "name": "grasp_closing_velocity",
+       "required": false
+      },
+      {
+       "name": "lift_linear_velocity",
+       "required": false
+      },
+      {
+       "name": "grasp_stall_minimum_time",
+       "required": false
+      },
+      {
+       "name": "object_friction",
+       "required": false
+      },
+      {
+       "name": "object_designator",
+       "required": true,
+       "kind": "entity"
+      },
+      {
+       "name": "arm",
+       "required": true,
+       "kind": "enumeration"
+      },
+      {
+       "name": "grasp_description",
+       "required": true,
+       "kind": "structure"
+      },
+      {
+       "name": "tolerate_grasp_stall",
+       "required": false,
+       "default": "no",
+       "kind": "boolean"
+      },
+      {
+       "name": "rail_height",
+       "required": true,
+       "kind": "number"
+      },
+      {
+       "name": "tool_depth",
+       "required": false,
+       "default": "0",
+       "kind": "number"
+      },
+      {
+       "name": "closed_fingers",
+       "required": false,
+       "kind": "structure"
+      }
+     ],
+     "constraints": [],
+     "poses": {}
     },
     {
      "kind": "ActionNode",
@@ -771,7 +1094,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_42",
-       "parent": "plan_node_5"
+       "parent": "plan_node_5",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "SequentialNode",
@@ -789,7 +1116,11 @@
            "status": "CREATED",
            "children": [],
            "id": "plan_node_48",
-           "parent": "plan_node_37"
+           "parent": "plan_node_37",
+           "parameters": {},
+           "fields": [],
+           "constraints": [],
+           "poses": {}
           },
           {
            "kind": "SequentialNode",
@@ -803,7 +1134,11 @@
              "children": [],
              "arm": "RIGHT",
              "id": "plan_node_44",
-             "parent": "plan_node_41"
+             "parent": "plan_node_41",
+             "parameters": {},
+             "fields": [],
+             "constraints": [],
+             "poses": {}
             },
             {
              "kind": "MotionNode",
@@ -812,7 +1147,11 @@
              "children": [],
              "arm": "RIGHT",
              "id": "plan_node_45",
-             "parent": "plan_node_41"
+             "parent": "plan_node_41",
+             "parameters": {},
+             "fields": [],
+             "constraints": [],
+             "poses": {}
             },
             {
              "kind": "MotionNode",
@@ -821,11 +1160,19 @@
              "children": [],
              "arm": "RIGHT",
              "id": "plan_node_46",
-             "parent": "plan_node_41"
+             "parent": "plan_node_41",
+             "parameters": {},
+             "fields": [],
+             "constraints": [],
+             "poses": {}
             }
            ],
            "id": "plan_node_41",
-           "parent": "plan_node_37"
+           "parent": "plan_node_37",
+           "parameters": {},
+           "fields": [],
+           "constraints": [],
+           "poses": {}
           },
           {
            "kind": "ConditionNode",
@@ -833,15 +1180,89 @@
            "status": "CREATED",
            "children": [],
            "id": "plan_node_49",
-           "parent": "plan_node_37"
+           "parent": "plan_node_37",
+           "parameters": {},
+           "fields": [],
+           "constraints": [],
+           "poses": {}
           }
          ],
-         "target": "a90426b5-f08e-4878-a280-326c25cd547e",
+         "target": "A09",
          "arm": "RIGHT",
          "id": "plan_node_37",
          "parent": "plan_node_34",
          "start": 1182,
-         "end": 1336
+         "end": 1336,
+         "parameters": {
+          "target_pose": "(0, 0, 0.232) yaw 0\u00b0 in A09",
+          "arm": "RIGHT",
+          "grasp_description": "approach direction FRONT, vertical alignment TOP, end effector TiagoRightGripper, rotate gripper yes",
+          "object_designator": "A09 \u00b7 ground coffee 500g",
+          "open_gripper_at_pre_pose": "yes"
+         },
+         "fields": [
+          {
+           "name": "grasp_detection_threshold",
+           "required": false,
+           "default": "0.9",
+           "kind": "number"
+          },
+          {
+           "name": "pre_approach_linear_velocity",
+           "required": false
+          },
+          {
+           "name": "final_approach_linear_velocity",
+           "required": false
+          },
+          {
+           "name": "target_pose",
+           "required": true,
+           "kind": "pose"
+          },
+          {
+           "name": "arm",
+           "required": true,
+           "kind": "enumeration"
+          },
+          {
+           "name": "grasp_description",
+           "required": true,
+           "kind": "structure"
+          },
+          {
+           "name": "object_designator",
+           "required": false,
+           "kind": "entity"
+          },
+          {
+           "name": "reverse_reach_order",
+           "required": false,
+           "default": "no",
+           "kind": "boolean"
+          },
+          {
+           "name": "open_gripper_at_pre_pose",
+           "required": false,
+           "default": "no",
+           "kind": "boolean"
+          }
+         ],
+         "constraints": [],
+         "poses": {
+          "target_pose": {
+           "pose": [
+            0.0,
+            0.0,
+            0.23218,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+           ],
+           "frame": "A09"
+          }
+         }
         },
         {
          "kind": "MotionNode",
@@ -850,7 +1271,11 @@
          "children": [],
          "arm": "RIGHT",
          "id": "plan_node_38",
-         "parent": "plan_node_34"
+         "parent": "plan_node_34",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         },
         {
          "kind": "AttachNode",
@@ -858,7 +1283,11 @@
          "status": "SUCCEEDED",
          "children": [],
          "id": "plan_node_39",
-         "parent": "plan_node_34"
+         "parent": "plan_node_34",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         },
         {
          "kind": "MotionNode",
@@ -867,13 +1296,21 @@
          "children": [],
          "arm": "RIGHT",
          "id": "plan_node_40",
-         "parent": "plan_node_34"
+         "parent": "plan_node_34",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         }
        ],
        "id": "plan_node_34",
        "parent": "plan_node_5",
        "start": 1182,
-       "end": 1336
+       "end": 1336,
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -881,15 +1318,98 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_43",
-       "parent": "plan_node_5"
+       "parent": "plan_node_5",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
-     "target": "a90426b5-f08e-4878-a280-326c25cd547e",
+     "target": "A09",
      "arm": "RIGHT",
      "id": "plan_node_5",
      "parent": "plan_node_0",
      "start": 1182,
-     "end": 1385
+     "end": 1385,
+     "parameters": {
+      "object_designator": "A09 \u00b7 ground coffee 500g",
+      "arm": "RIGHT",
+      "grasp_description": "approach direction FRONT, vertical alignment TOP, end effector TiagoRightGripper, rotate gripper yes",
+      "rail_height": "0.179",
+      "tool_depth": "0.053",
+      "closed_fingers": "connections RevoluteConnection, target values 0.743, state type CLOSE, name PrefixedName"
+     },
+     "fields": [
+      {
+       "name": "grasp_detection_threshold",
+       "required": false,
+       "default": "0.9",
+       "kind": "number"
+      },
+      {
+       "name": "pre_approach_linear_velocity",
+       "required": false
+      },
+      {
+       "name": "final_approach_linear_velocity",
+       "required": false
+      },
+      {
+       "name": "grasp_closing_velocity",
+       "required": false
+      },
+      {
+       "name": "lift_linear_velocity",
+       "required": false
+      },
+      {
+       "name": "grasp_stall_minimum_time",
+       "required": false
+      },
+      {
+       "name": "object_friction",
+       "required": false
+      },
+      {
+       "name": "object_designator",
+       "required": true,
+       "kind": "entity"
+      },
+      {
+       "name": "arm",
+       "required": true,
+       "kind": "enumeration"
+      },
+      {
+       "name": "grasp_description",
+       "required": true,
+       "kind": "structure"
+      },
+      {
+       "name": "tolerate_grasp_stall",
+       "required": false,
+       "default": "no",
+       "kind": "boolean"
+      },
+      {
+       "name": "rail_height",
+       "required": true,
+       "kind": "number"
+      },
+      {
+       "name": "tool_depth",
+       "required": false,
+       "default": "0",
+       "kind": "number"
+      },
+      {
+       "name": "closed_fingers",
+       "required": false,
+       "kind": "structure"
+      }
+     ],
+     "constraints": [],
+     "poses": {}
     },
     {
      "kind": "ActionNode",
@@ -902,7 +1422,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_50",
-       "parent": "plan_node_6"
+       "parent": "plan_node_6",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -910,7 +1434,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_node_51",
-       "parent": "plan_node_6"
+       "parent": "plan_node_6",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -918,13 +1446,54 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_52",
-       "parent": "plan_node_6"
+       "parent": "plan_node_6",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "id": "plan_node_6",
      "parent": "plan_node_0",
      "start": 1429,
-     "end": 1527
+     "end": 1527,
+     "parameters": {
+      "target_location": "(10.625, 3.606, 0) yaw 90\u00b0 in map"
+     },
+     "fields": [
+      {
+       "name": "target_location",
+       "required": true,
+       "kind": "pose"
+      },
+      {
+       "name": "keep_joint_states",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      },
+      {
+       "name": "face_travel_direction",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      }
+     ],
+     "constraints": [],
+     "poses": {
+      "target_location": {
+       "pose": [
+        10.625,
+        3.606,
+        0.0,
+        0.0,
+        0.0,
+        0.70711,
+        0.70711
+       ],
+       "frame": "map"
+      }
+     }
     },
     {
      "kind": "ActionNode",
@@ -937,7 +1506,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_53",
-       "parent": "plan_node_7"
+       "parent": "plan_node_7",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -945,7 +1518,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_node_54",
-       "parent": "plan_node_7"
+       "parent": "plan_node_7",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -953,13 +1530,54 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_55",
-       "parent": "plan_node_7"
+       "parent": "plan_node_7",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "id": "plan_node_7",
      "parent": "plan_node_0",
      "start": 1529,
-     "end": 2244
+     "end": 2244,
+     "parameters": {
+      "target_location": "(14.191, 3.635, 0) yaw 0\u00b0 in map"
+     },
+     "fields": [
+      {
+       "name": "target_location",
+       "required": true,
+       "kind": "pose"
+      },
+      {
+       "name": "keep_joint_states",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      },
+      {
+       "name": "face_travel_direction",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      }
+     ],
+     "constraints": [],
+     "poses": {
+      "target_location": {
+       "pose": [
+        14.191,
+        3.635,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "frame": "map"
+      }
+     }
     },
     {
      "kind": "ActionNode",
@@ -972,7 +1590,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_56",
-       "parent": "plan_node_8"
+       "parent": "plan_node_8",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -980,7 +1602,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_node_57",
-       "parent": "plan_node_8"
+       "parent": "plan_node_8",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -988,13 +1614,35 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_58",
-       "parent": "plan_node_8"
+       "parent": "plan_node_8",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "id": "plan_node_8",
      "parent": "plan_node_0",
      "start": 2246,
-     "end": 2311
+     "end": 2311,
+     "parameters": {
+      "arms": "LEFT, RIGHT",
+      "movement": "height 0.48"
+     },
+     "fields": [
+      {
+       "name": "arms",
+       "required": true,
+       "kind": "list"
+      },
+      {
+       "name": "movement",
+       "required": true,
+       "kind": "structure"
+      }
+     ],
+     "constraints": [],
+     "poses": {}
     },
     {
      "kind": "ActionNode",
@@ -1007,7 +1655,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_59",
-       "parent": "plan_node_9"
+       "parent": "plan_node_9",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -1015,7 +1667,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_node_60",
-       "parent": "plan_node_9"
+       "parent": "plan_node_9",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -1023,13 +1679,54 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_61",
-       "parent": "plan_node_9"
+       "parent": "plan_node_9",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "id": "plan_node_9",
      "parent": "plan_node_0",
-     "start": 2335,
-     "end": 2460
+     "start": 2336,
+     "end": 2461,
+     "parameters": {
+      "target_location": "(14.991, 3.635, 0) yaw 0\u00b0 in map"
+     },
+     "fields": [
+      {
+       "name": "target_location",
+       "required": true,
+       "kind": "pose"
+      },
+      {
+       "name": "keep_joint_states",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      },
+      {
+       "name": "face_travel_direction",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      }
+     ],
+     "constraints": [],
+     "poses": {
+      "target_location": {
+       "pose": [
+        14.991,
+        3.635,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "frame": "map"
+      }
+     }
     },
     {
      "kind": "ActionNode",
@@ -1042,7 +1739,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_68",
-       "parent": "plan_node_10"
+       "parent": "plan_node_10",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "SequentialNode",
@@ -1056,7 +1757,11 @@
          "children": [],
          "arm": "LEFT",
          "id": "plan_node_62",
-         "parent": "plan_node_47"
+         "parent": "plan_node_47",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         },
         {
          "kind": "MotionNode",
@@ -1065,7 +1770,11 @@
          "children": [],
          "arm": "LEFT",
          "id": "plan_node_63",
-         "parent": "plan_node_47"
+         "parent": "plan_node_47",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         },
         {
          "kind": "MotionNode",
@@ -1074,7 +1783,11 @@
          "children": [],
          "arm": "LEFT",
          "id": "plan_node_64",
-         "parent": "plan_node_47"
+         "parent": "plan_node_47",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         },
         {
          "kind": "DetachNode",
@@ -1082,7 +1795,11 @@
          "status": "SUCCEEDED",
          "children": [],
          "id": "plan_node_65",
-         "parent": "plan_node_47"
+         "parent": "plan_node_47",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         },
         {
          "kind": "MotionNode",
@@ -1091,11 +1808,19 @@
          "children": [],
          "arm": "LEFT",
          "id": "plan_node_66",
-         "parent": "plan_node_47"
+         "parent": "plan_node_47",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         }
        ],
        "id": "plan_node_47",
-       "parent": "plan_node_10"
+       "parent": "plan_node_10",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -1103,15 +1828,84 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_69",
-       "parent": "plan_node_10"
+       "parent": "plan_node_10",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
-     "target": "f073edc2-c21c-48c9-8a38-be7374df7ff9",
+     "target": "A08",
      "arm": "LEFT",
      "id": "plan_node_10",
      "parent": "plan_node_0",
-     "start": 2471,
-     "end": 2652
+     "start": 2470,
+     "end": 2650,
+     "parameters": {
+      "object_designator": "A08 \u00b7 computer mouse box",
+      "target_location": "(15.5, 3.86, 0.4) yaw 0\u00b0 in map",
+      "arm": "LEFT"
+     },
+     "fields": [
+      {
+       "name": "grasp_detection_threshold",
+       "required": false,
+       "default": "0.9",
+       "kind": "number"
+      },
+      {
+       "name": "placing_linear_velocity",
+       "required": false
+      },
+      {
+       "name": "transport_linear_velocity",
+       "required": false
+      },
+      {
+       "name": "release_opening_velocity",
+       "required": false
+      },
+      {
+       "name": "retract_linear_velocity",
+       "required": false
+      },
+      {
+       "name": "object_designator",
+       "required": true,
+       "kind": "entity"
+      },
+      {
+       "name": "target_location",
+       "required": true,
+       "kind": "pose"
+      },
+      {
+       "name": "arm",
+       "required": true,
+       "kind": "enumeration"
+      },
+      {
+       "name": "grasp_release_threshold",
+       "required": false,
+       "default": "0.1",
+       "kind": "number"
+      }
+     ],
+     "constraints": [],
+     "poses": {
+      "target_location": {
+       "pose": [
+        15.5,
+        3.86,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "frame": "map"
+      }
+     }
     },
     {
      "kind": "ActionNode",
@@ -1124,7 +1918,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_76",
-       "parent": "plan_node_11"
+       "parent": "plan_node_11",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "SequentialNode",
@@ -1138,7 +1936,11 @@
          "children": [],
          "arm": "RIGHT",
          "id": "plan_node_70",
-         "parent": "plan_node_67"
+         "parent": "plan_node_67",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         },
         {
          "kind": "MotionNode",
@@ -1147,7 +1949,11 @@
          "children": [],
          "arm": "RIGHT",
          "id": "plan_node_71",
-         "parent": "plan_node_67"
+         "parent": "plan_node_67",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         },
         {
          "kind": "MotionNode",
@@ -1156,7 +1962,11 @@
          "children": [],
          "arm": "RIGHT",
          "id": "plan_node_72",
-         "parent": "plan_node_67"
+         "parent": "plan_node_67",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         },
         {
          "kind": "DetachNode",
@@ -1164,7 +1974,11 @@
          "status": "SUCCEEDED",
          "children": [],
          "id": "plan_node_73",
-         "parent": "plan_node_67"
+         "parent": "plan_node_67",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         },
         {
          "kind": "MotionNode",
@@ -1173,11 +1987,19 @@
          "children": [],
          "arm": "RIGHT",
          "id": "plan_node_74",
-         "parent": "plan_node_67"
+         "parent": "plan_node_67",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         }
        ],
        "id": "plan_node_67",
-       "parent": "plan_node_11"
+       "parent": "plan_node_11",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -1185,15 +2007,84 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_77",
-       "parent": "plan_node_11"
+       "parent": "plan_node_11",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
-     "target": "a90426b5-f08e-4878-a280-326c25cd547e",
+     "target": "A09",
      "arm": "RIGHT",
      "id": "plan_node_11",
      "parent": "plan_node_0",
-     "start": 2678,
-     "end": 2859
+     "start": 2676,
+     "end": 2855,
+     "parameters": {
+      "object_designator": "A09 \u00b7 ground coffee 500g",
+      "target_location": "(15.5, 3.41, 0.4) yaw 0\u00b0 in map",
+      "arm": "RIGHT"
+     },
+     "fields": [
+      {
+       "name": "grasp_detection_threshold",
+       "required": false,
+       "default": "0.9",
+       "kind": "number"
+      },
+      {
+       "name": "placing_linear_velocity",
+       "required": false
+      },
+      {
+       "name": "transport_linear_velocity",
+       "required": false
+      },
+      {
+       "name": "release_opening_velocity",
+       "required": false
+      },
+      {
+       "name": "retract_linear_velocity",
+       "required": false
+      },
+      {
+       "name": "object_designator",
+       "required": true,
+       "kind": "entity"
+      },
+      {
+       "name": "target_location",
+       "required": true,
+       "kind": "pose"
+      },
+      {
+       "name": "arm",
+       "required": true,
+       "kind": "enumeration"
+      },
+      {
+       "name": "grasp_release_threshold",
+       "required": false,
+       "default": "0.1",
+       "kind": "number"
+      }
+     ],
+     "constraints": [],
+     "poses": {
+      "target_location": {
+       "pose": [
+        15.5,
+        3.41,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "frame": "map"
+      }
+     }
     },
     {
      "kind": "ActionNode",
@@ -1206,7 +2097,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_78",
-       "parent": "plan_node_12"
+       "parent": "plan_node_12",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -1214,7 +2109,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_node_79",
-       "parent": "plan_node_12"
+       "parent": "plan_node_12",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -1222,14 +2121,34 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_80",
-       "parent": "plan_node_12"
+       "parent": "plan_node_12",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "arm": "BOTH",
      "id": "plan_node_12",
      "parent": "plan_node_0",
-     "start": 2886,
-     "end": 2973
+     "start": 2882,
+     "end": 2970,
+     "parameters": {
+      "arm": "BOTH"
+     },
+     "fields": [
+      {
+       "name": "max_joint_velocity",
+       "required": false
+      },
+      {
+       "name": "arm",
+       "required": true,
+       "kind": "enumeration"
+      }
+     ],
+     "constraints": [],
+     "poses": {}
     },
     {
      "kind": "ActionNode",
@@ -1242,7 +2161,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_81",
-       "parent": "plan_node_13"
+       "parent": "plan_node_13",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -1250,7 +2173,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_node_82",
-       "parent": "plan_node_13"
+       "parent": "plan_node_13",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -1258,19 +2185,64 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_node_83",
-       "parent": "plan_node_13"
+       "parent": "plan_node_13",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "id": "plan_node_13",
      "parent": "plan_node_0",
-     "start": 2994,
-     "end": 3110
+     "start": 2991,
+     "end": 3105,
+     "parameters": {
+      "target_location": "(14.191, 3.635, 0) yaw 0\u00b0 in map"
+     },
+     "fields": [
+      {
+       "name": "target_location",
+       "required": true,
+       "kind": "pose"
+      },
+      {
+       "name": "keep_joint_states",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      },
+      {
+       "name": "face_travel_direction",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      }
+     ],
+     "constraints": [],
+     "poses": {
+      "target_location": {
+       "pose": [
+        14.191,
+        3.635,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "frame": "map"
+      }
+     }
     }
    ],
    "id": "plan_node_0",
    "start": 1,
-   "end": 3110,
-   "robot": "Tiago"
+   "end": 3105,
+   "robot": "Tiago",
+   "parameters": {},
+   "fields": [],
+   "constraints": [],
+   "poses": {}
   },
   {
    "kind": "SequentialNode",
@@ -1288,7 +2260,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_14",
-       "parent": "plan_2_node_1"
+       "parent": "plan_2_node_1",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -1296,7 +2272,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_2_node_15",
-       "parent": "plan_2_node_1"
+       "parent": "plan_2_node_1",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -1304,14 +2284,34 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_16",
-       "parent": "plan_2_node_1"
+       "parent": "plan_2_node_1",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "arm": "BOTH",
      "id": "plan_2_node_1",
      "parent": "plan_2_node_0",
-     "start": 3114,
-     "end": 3461
+     "start": 3109,
+     "end": 3456,
+     "parameters": {
+      "arm": "BOTH"
+     },
+     "fields": [
+      {
+       "name": "max_joint_velocity",
+       "required": false
+      },
+      {
+       "name": "arm",
+       "required": true,
+       "kind": "enumeration"
+      }
+     ],
+     "constraints": [],
+     "poses": {}
     },
     {
      "kind": "ActionNode",
@@ -1324,7 +2324,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_17",
-       "parent": "plan_2_node_2"
+       "parent": "plan_2_node_2",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -1332,7 +2336,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_2_node_18",
-       "parent": "plan_2_node_2"
+       "parent": "plan_2_node_2",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -1340,13 +2348,54 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_19",
-       "parent": "plan_2_node_2"
+       "parent": "plan_2_node_2",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "id": "plan_2_node_2",
      "parent": "plan_2_node_0",
-     "start": 3464,
-     "end": 4228
+     "start": 3459,
+     "end": 4223,
+     "parameters": {
+      "target_location": "(7.591, 6.585, 0) yaw 180\u00b0 in map"
+     },
+     "fields": [
+      {
+       "name": "target_location",
+       "required": true,
+       "kind": "pose"
+      },
+      {
+       "name": "keep_joint_states",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      },
+      {
+       "name": "face_travel_direction",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      }
+     ],
+     "constraints": [],
+     "poses": {
+      "target_location": {
+       "pose": [
+        7.5914,
+        6.5845,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+       ],
+       "frame": "map"
+      }
+     }
     },
     {
      "kind": "ActionNode",
@@ -1359,7 +2408,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_20",
-       "parent": "plan_2_node_3"
+       "parent": "plan_2_node_3",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -1367,7 +2420,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_2_node_21",
-       "parent": "plan_2_node_3"
+       "parent": "plan_2_node_3",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -1375,13 +2432,54 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_22",
-       "parent": "plan_2_node_3"
+       "parent": "plan_2_node_3",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "id": "plan_2_node_3",
      "parent": "plan_2_node_0",
-     "start": 4230,
-     "end": 4346
+     "start": 4225,
+     "end": 4341,
+     "parameters": {
+      "target_location": "(6.791, 6.585, 0) yaw 180\u00b0 in map"
+     },
+     "fields": [
+      {
+       "name": "target_location",
+       "required": true,
+       "kind": "pose"
+      },
+      {
+       "name": "keep_joint_states",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      },
+      {
+       "name": "face_travel_direction",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      }
+     ],
+     "constraints": [],
+     "poses": {
+      "target_location": {
+       "pose": [
+        6.7914,
+        6.5845,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+       ],
+       "frame": "map"
+      }
+     }
     },
     {
      "kind": "ActionNode",
@@ -1394,7 +2492,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_28",
-       "parent": "plan_2_node_4"
+       "parent": "plan_2_node_4",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "SequentialNode",
@@ -1412,7 +2514,11 @@
            "status": "CREATED",
            "children": [],
            "id": "plan_2_node_34",
-           "parent": "plan_2_node_23"
+           "parent": "plan_2_node_23",
+           "parameters": {},
+           "fields": [],
+           "constraints": [],
+           "poses": {}
           },
           {
            "kind": "SequentialNode",
@@ -1426,7 +2532,11 @@
              "children": [],
              "arm": "LEFT",
              "id": "plan_2_node_30",
-             "parent": "plan_2_node_27"
+             "parent": "plan_2_node_27",
+             "parameters": {},
+             "fields": [],
+             "constraints": [],
+             "poses": {}
             },
             {
              "kind": "MotionNode",
@@ -1435,7 +2545,11 @@
              "children": [],
              "arm": "LEFT",
              "id": "plan_2_node_31",
-             "parent": "plan_2_node_27"
+             "parent": "plan_2_node_27",
+             "parameters": {},
+             "fields": [],
+             "constraints": [],
+             "poses": {}
             },
             {
              "kind": "MotionNode",
@@ -1444,11 +2558,19 @@
              "children": [],
              "arm": "LEFT",
              "id": "plan_2_node_32",
-             "parent": "plan_2_node_27"
+             "parent": "plan_2_node_27",
+             "parameters": {},
+             "fields": [],
+             "constraints": [],
+             "poses": {}
             }
            ],
            "id": "plan_2_node_27",
-           "parent": "plan_2_node_23"
+           "parent": "plan_2_node_23",
+           "parameters": {},
+           "fields": [],
+           "constraints": [],
+           "poses": {}
           },
           {
            "kind": "ConditionNode",
@@ -1456,15 +2578,89 @@
            "status": "CREATED",
            "children": [],
            "id": "plan_2_node_35",
-           "parent": "plan_2_node_23"
+           "parent": "plan_2_node_23",
+           "parameters": {},
+           "fields": [],
+           "constraints": [],
+           "poses": {}
           }
          ],
-         "target": "0268accf-88cb-49d0-b8d2-7cf273bdaa7c",
+         "target": "R01",
          "arm": "LEFT",
          "id": "plan_2_node_23",
          "parent": "plan_2_node_13",
-         "start": 4348,
-         "end": 6357
+         "start": 4343,
+         "end": 6352,
+         "parameters": {
+          "target_pose": "(0, 0, 0.179) yaw 0\u00b0 in R01",
+          "arm": "LEFT",
+          "grasp_description": "approach direction FRONT, vertical alignment TOP, end effector StretchGripper",
+          "object_designator": "R01 \u00b7 beverage can 330ml",
+          "open_gripper_at_pre_pose": "yes"
+         },
+         "fields": [
+          {
+           "name": "grasp_detection_threshold",
+           "required": false,
+           "default": "0.9",
+           "kind": "number"
+          },
+          {
+           "name": "pre_approach_linear_velocity",
+           "required": false
+          },
+          {
+           "name": "final_approach_linear_velocity",
+           "required": false
+          },
+          {
+           "name": "target_pose",
+           "required": true,
+           "kind": "pose"
+          },
+          {
+           "name": "arm",
+           "required": true,
+           "kind": "enumeration"
+          },
+          {
+           "name": "grasp_description",
+           "required": true,
+           "kind": "structure"
+          },
+          {
+           "name": "object_designator",
+           "required": false,
+           "kind": "entity"
+          },
+          {
+           "name": "reverse_reach_order",
+           "required": false,
+           "default": "no",
+           "kind": "boolean"
+          },
+          {
+           "name": "open_gripper_at_pre_pose",
+           "required": false,
+           "default": "no",
+           "kind": "boolean"
+          }
+         ],
+         "constraints": [],
+         "poses": {
+          "target_pose": {
+           "pose": [
+            0.0,
+            0.0,
+            0.179,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+           ],
+           "frame": "R01"
+          }
+         }
         },
         {
          "kind": "MotionNode",
@@ -1473,7 +2669,11 @@
          "children": [],
          "arm": "LEFT",
          "id": "plan_2_node_24",
-         "parent": "plan_2_node_13"
+         "parent": "plan_2_node_13",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         },
         {
          "kind": "AttachNode",
@@ -1481,7 +2681,11 @@
          "status": "SUCCEEDED",
          "children": [],
          "id": "plan_2_node_25",
-         "parent": "plan_2_node_13"
+         "parent": "plan_2_node_13",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         },
         {
          "kind": "MotionNode",
@@ -1490,13 +2694,21 @@
          "children": [],
          "arm": "LEFT",
          "id": "plan_2_node_26",
-         "parent": "plan_2_node_13"
+         "parent": "plan_2_node_13",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         }
        ],
        "id": "plan_2_node_13",
        "parent": "plan_2_node_4",
-       "start": 4348,
-       "end": 6357
+       "start": 4343,
+       "end": 6352,
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -1504,15 +2716,95 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_29",
-       "parent": "plan_2_node_4"
+       "parent": "plan_2_node_4",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
-     "target": "0268accf-88cb-49d0-b8d2-7cf273bdaa7c",
+     "target": "R01",
      "arm": "LEFT",
      "id": "plan_2_node_4",
      "parent": "plan_2_node_0",
-     "start": 4348,
-     "end": 7551
+     "start": 4343,
+     "end": 7546,
+     "parameters": {
+      "object_designator": "R01 \u00b7 beverage can 330ml",
+      "arm": "LEFT",
+      "grasp_description": "approach direction FRONT, vertical alignment TOP, end effector StretchGripper",
+      "rail_height": "0.179"
+     },
+     "fields": [
+      {
+       "name": "grasp_detection_threshold",
+       "required": false,
+       "default": "0.9",
+       "kind": "number"
+      },
+      {
+       "name": "pre_approach_linear_velocity",
+       "required": false
+      },
+      {
+       "name": "final_approach_linear_velocity",
+       "required": false
+      },
+      {
+       "name": "grasp_closing_velocity",
+       "required": false
+      },
+      {
+       "name": "lift_linear_velocity",
+       "required": false
+      },
+      {
+       "name": "grasp_stall_minimum_time",
+       "required": false
+      },
+      {
+       "name": "object_friction",
+       "required": false
+      },
+      {
+       "name": "object_designator",
+       "required": true,
+       "kind": "entity"
+      },
+      {
+       "name": "arm",
+       "required": true,
+       "kind": "enumeration"
+      },
+      {
+       "name": "grasp_description",
+       "required": true,
+       "kind": "structure"
+      },
+      {
+       "name": "tolerate_grasp_stall",
+       "required": false,
+       "default": "no",
+       "kind": "boolean"
+      },
+      {
+       "name": "rail_height",
+       "required": true,
+       "kind": "number"
+      },
+      {
+       "name": "tool_depth",
+       "required": false,
+       "default": "0",
+       "kind": "number"
+      },
+      {
+       "name": "closed_fingers",
+       "required": false
+      }
+     ],
+     "constraints": [],
+     "poses": {}
     },
     {
      "kind": "ActionNode",
@@ -1525,7 +2817,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_36",
-       "parent": "plan_2_node_5"
+       "parent": "plan_2_node_5",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -1533,7 +2829,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_2_node_37",
-       "parent": "plan_2_node_5"
+       "parent": "plan_2_node_5",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -1541,13 +2841,35 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_38",
-       "parent": "plan_2_node_5"
+       "parent": "plan_2_node_5",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "id": "plan_2_node_5",
      "parent": "plan_2_node_0",
-     "start": 7578,
-     "end": 7588
+     "start": 7573,
+     "end": 7583,
+     "parameters": {
+      "arms": "LEFT",
+      "movement": "height 0.22"
+     },
+     "fields": [
+      {
+       "name": "arms",
+       "required": true,
+       "kind": "list"
+      },
+      {
+       "name": "movement",
+       "required": true,
+       "kind": "structure"
+      }
+     ],
+     "constraints": [],
+     "poses": {}
     },
     {
      "kind": "ActionNode",
@@ -1560,7 +2882,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_39",
-       "parent": "plan_2_node_6"
+       "parent": "plan_2_node_6",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -1568,7 +2894,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_2_node_40",
-       "parent": "plan_2_node_6"
+       "parent": "plan_2_node_6",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -1576,13 +2906,35 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_41",
-       "parent": "plan_2_node_6"
+       "parent": "plan_2_node_6",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "id": "plan_2_node_6",
      "parent": "plan_2_node_0",
-     "start": 7629,
-     "end": 7697
+     "start": 7624,
+     "end": 7692,
+     "parameters": {
+      "arms": "LEFT",
+      "movement": "offset 0, -0.399, 0"
+     },
+     "fields": [
+      {
+       "name": "arms",
+       "required": true,
+       "kind": "list"
+      },
+      {
+       "name": "movement",
+       "required": true,
+       "kind": "structure"
+      }
+     ],
+     "constraints": [],
+     "poses": {}
     },
     {
      "kind": "ActionNode",
@@ -1595,7 +2947,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_42",
-       "parent": "plan_2_node_7"
+       "parent": "plan_2_node_7",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -1603,7 +2959,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_2_node_43",
-       "parent": "plan_2_node_7"
+       "parent": "plan_2_node_7",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -1611,13 +2971,54 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_44",
-       "parent": "plan_2_node_7"
+       "parent": "plan_2_node_7",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "id": "plan_2_node_7",
      "parent": "plan_2_node_0",
-     "start": 7699,
-     "end": 7815
+     "start": 7694,
+     "end": 7810,
+     "parameters": {
+      "target_location": "(7.591, 6.585, 0) yaw 180\u00b0 in map"
+     },
+     "fields": [
+      {
+       "name": "target_location",
+       "required": true,
+       "kind": "pose"
+      },
+      {
+       "name": "keep_joint_states",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      },
+      {
+       "name": "face_travel_direction",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      }
+     ],
+     "constraints": [],
+     "poses": {
+      "target_location": {
+       "pose": [
+        7.5914,
+        6.5845,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+       ],
+       "frame": "map"
+      }
+     }
     },
     {
      "kind": "ActionNode",
@@ -1630,7 +3031,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_45",
-       "parent": "plan_2_node_8"
+       "parent": "plan_2_node_8",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -1638,7 +3043,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_2_node_46",
-       "parent": "plan_2_node_8"
+       "parent": "plan_2_node_8",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -1646,13 +3055,54 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_47",
-       "parent": "plan_2_node_8"
+       "parent": "plan_2_node_8",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "id": "plan_2_node_8",
      "parent": "plan_2_node_0",
-     "start": 7817,
-     "end": 8518
+     "start": 7812,
+     "end": 8513,
+     "parameters": {
+      "target_location": "(10.498, 5.646, 0) yaw 0\u00b0 in map"
+     },
+     "fields": [
+      {
+       "name": "target_location",
+       "required": true,
+       "kind": "pose"
+      },
+      {
+       "name": "keep_joint_states",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      },
+      {
+       "name": "face_travel_direction",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      }
+     ],
+     "constraints": [],
+     "poses": {
+      "target_location": {
+       "pose": [
+        10.4985,
+        5.6455,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "frame": "map"
+      }
+     }
     },
     {
      "kind": "ActionNode",
@@ -1665,7 +3115,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_48",
-       "parent": "plan_2_node_9"
+       "parent": "plan_2_node_9",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -1673,7 +3127,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_2_node_49",
-       "parent": "plan_2_node_9"
+       "parent": "plan_2_node_9",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -1681,13 +3139,54 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_50",
-       "parent": "plan_2_node_9"
+       "parent": "plan_2_node_9",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "id": "plan_2_node_9",
      "parent": "plan_2_node_0",
-     "start": 8520,
-     "end": 8636
+     "start": 8515,
+     "end": 8631,
+     "parameters": {
+      "target_location": "(11.299, 5.646, 0) yaw 0\u00b0 in map"
+     },
+     "fields": [
+      {
+       "name": "target_location",
+       "required": true,
+       "kind": "pose"
+      },
+      {
+       "name": "keep_joint_states",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      },
+      {
+       "name": "face_travel_direction",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      }
+     ],
+     "constraints": [],
+     "poses": {
+      "target_location": {
+       "pose": [
+        11.2985,
+        5.6455,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "frame": "map"
+      }
+     }
     },
     {
      "kind": "ActionNode",
@@ -1700,7 +3199,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_57",
-       "parent": "plan_2_node_10"
+       "parent": "plan_2_node_10",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "SequentialNode",
@@ -1714,7 +3217,11 @@
          "children": [],
          "arm": "LEFT",
          "id": "plan_2_node_51",
-         "parent": "plan_2_node_33"
+         "parent": "plan_2_node_33",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         },
         {
          "kind": "MotionNode",
@@ -1723,7 +3230,11 @@
          "children": [],
          "arm": "LEFT",
          "id": "plan_2_node_52",
-         "parent": "plan_2_node_33"
+         "parent": "plan_2_node_33",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         },
         {
          "kind": "MotionNode",
@@ -1732,7 +3243,11 @@
          "children": [],
          "arm": "LEFT",
          "id": "plan_2_node_53",
-         "parent": "plan_2_node_33"
+         "parent": "plan_2_node_33",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         },
         {
          "kind": "DetachNode",
@@ -1740,7 +3255,11 @@
          "status": "SUCCEEDED",
          "children": [],
          "id": "plan_2_node_54",
-         "parent": "plan_2_node_33"
+         "parent": "plan_2_node_33",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         },
         {
          "kind": "MotionNode",
@@ -1749,11 +3268,19 @@
          "children": [],
          "arm": "LEFT",
          "id": "plan_2_node_55",
-         "parent": "plan_2_node_33"
+         "parent": "plan_2_node_33",
+         "parameters": {},
+         "fields": [],
+         "constraints": [],
+         "poses": {}
         }
        ],
        "id": "plan_2_node_33",
-       "parent": "plan_2_node_10"
+       "parent": "plan_2_node_10",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -1761,15 +3288,84 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_58",
-       "parent": "plan_2_node_10"
+       "parent": "plan_2_node_10",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
-     "target": "0268accf-88cb-49d0-b8d2-7cf273bdaa7c",
+     "target": "R01",
      "arm": "LEFT",
      "id": "plan_2_node_10",
      "parent": "plan_2_node_0",
-     "start": 8638,
-     "end": 10005
+     "start": 8633,
+     "end": 10000,
+     "parameters": {
+      "object_designator": "R01 \u00b7 beverage can 330ml",
+      "target_location": "(11.3, 5, 0.15) yaw -90\u00b0 in map",
+      "arm": "LEFT"
+     },
+     "fields": [
+      {
+       "name": "grasp_detection_threshold",
+       "required": false,
+       "default": "0.9",
+       "kind": "number"
+      },
+      {
+       "name": "placing_linear_velocity",
+       "required": false
+      },
+      {
+       "name": "transport_linear_velocity",
+       "required": false
+      },
+      {
+       "name": "release_opening_velocity",
+       "required": false
+      },
+      {
+       "name": "retract_linear_velocity",
+       "required": false
+      },
+      {
+       "name": "object_designator",
+       "required": true,
+       "kind": "entity"
+      },
+      {
+       "name": "target_location",
+       "required": true,
+       "kind": "pose"
+      },
+      {
+       "name": "arm",
+       "required": true,
+       "kind": "enumeration"
+      },
+      {
+       "name": "grasp_release_threshold",
+       "required": false,
+       "default": "0.1",
+       "kind": "number"
+      }
+     ],
+     "constraints": [],
+     "poses": {
+      "target_location": {
+       "pose": [
+        11.3,
+        5.0,
+        0.15,
+        0.0,
+        0.0,
+        -0.70711,
+        0.70711
+       ],
+       "frame": "map"
+      }
+     }
     },
     {
      "kind": "ActionNode",
@@ -1782,7 +3378,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_59",
-       "parent": "plan_2_node_11"
+       "parent": "plan_2_node_11",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -1790,7 +3390,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_2_node_60",
-       "parent": "plan_2_node_11"
+       "parent": "plan_2_node_11",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -1798,14 +3402,34 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_61",
-       "parent": "plan_2_node_11"
+       "parent": "plan_2_node_11",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "arm": "BOTH",
      "id": "plan_2_node_11",
      "parent": "plan_2_node_0",
-     "start": 10007,
-     "end": 10069
+     "start": 10002,
+     "end": 10064,
+     "parameters": {
+      "arm": "BOTH"
+     },
+     "fields": [
+      {
+       "name": "max_joint_velocity",
+       "required": false
+      },
+      {
+       "name": "arm",
+       "required": true,
+       "kind": "enumeration"
+      }
+     ],
+     "constraints": [],
+     "poses": {}
     },
     {
      "kind": "ActionNode",
@@ -1818,7 +3442,11 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_62",
-       "parent": "plan_2_node_12"
+       "parent": "plan_2_node_12",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "MotionNode",
@@ -1826,7 +3454,11 @@
        "status": "SUCCEEDED",
        "children": [],
        "id": "plan_2_node_63",
-       "parent": "plan_2_node_12"
+       "parent": "plan_2_node_12",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       },
       {
        "kind": "ConditionNode",
@@ -1834,19 +3466,64 @@
        "status": "CREATED",
        "children": [],
        "id": "plan_2_node_64",
-       "parent": "plan_2_node_12"
+       "parent": "plan_2_node_12",
+       "parameters": {},
+       "fields": [],
+       "constraints": [],
+       "poses": {}
       }
      ],
      "id": "plan_2_node_12",
      "parent": "plan_2_node_0",
-     "start": 10072,
-     "end": 10166
+     "start": 10067,
+     "end": 10161,
+     "parameters": {
+      "target_location": "(10.498, 5.646, 0) yaw 0\u00b0 in map"
+     },
+     "fields": [
+      {
+       "name": "target_location",
+       "required": true,
+       "kind": "pose"
+      },
+      {
+       "name": "keep_joint_states",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      },
+      {
+       "name": "face_travel_direction",
+       "required": false,
+       "default": "yes",
+       "kind": "boolean"
+      }
+     ],
+     "constraints": [],
+     "poses": {
+      "target_location": {
+       "pose": [
+        10.4985,
+        5.6455,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "frame": "map"
+      }
+     }
     }
    ],
    "id": "plan_2_node_0",
-   "start": 3114,
-   "end": 10166,
-   "robot": "Stretch"
+   "start": 3109,
+   "end": 10161,
+   "robot": "Stretch",
+   "parameters": {},
+   "fields": [],
+   "constraints": [],
+   "poses": {}
   }
  ],
  "actions": [],

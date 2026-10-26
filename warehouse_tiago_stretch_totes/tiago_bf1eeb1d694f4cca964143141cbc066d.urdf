@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<robot name="tiago_01f0629227a64bd3891e1bf7c58230dc">
+<robot name="tiago_bf1eeb1d694f4cca964143141cbc066d">
   <link name="world_root" />
   <link name="tiago_dual/base_footprint" />
   <joint name="world_root_to_tiago_dual/base_footprint" type="fixed">
@@ -21,7 +21,7 @@
   <joint name="tiago_dual/cover_joint" type="fixed">
     <parent link="tiago_dual/base_footprint" />
     <child link="tiago_dual/base_cover_link" />
-    <origin xyz="0.0 -0.0 0.13" rpy="0.0 0.0 0.0" />
+    <origin xyz="0.0 0.0 0.13" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/base_link">
     <visual>
@@ -43,7 +43,7 @@
   <joint name="tiago_dual/base_footprint_joint" type="fixed">
     <parent link="tiago_dual/base_footprint" />
     <child link="tiago_dual/base_link" />
-    <origin xyz="0.0 -0.0 0.0985" rpy="0.0 0.0 0.0" />
+    <origin xyz="0.0 0.0 0.0985" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/torso_fixed_column_link">
     <visual>
@@ -195,13 +195,13 @@
   <joint name="tiago_dual/head_front_camera_color_joint" type="fixed">
     <parent link="tiago_dual/head_front_camera_link" />
     <child link="tiago_dual/head_front_camera_color_frame" />
-    <origin xyz="-0.0 0.022 0.0" rpy="0.0 0.0 0.0" />
+    <origin xyz="0.0 0.022 0.0" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/head_front_camera_color_optical_frame" />
   <joint name="tiago_dual/head_front_camera_color_optical_joint" type="fixed">
     <parent link="tiago_dual/head_front_camera_color_frame" />
     <child link="tiago_dual/head_front_camera_color_optical_frame" />
-    <origin xyz="-0.0 0.0 0.0" rpy="-1.570796 0.0 -1.570796" />
+    <origin xyz="0.0 0.0 0.0" rpy="-1.570796 0.0 -1.570796" />
   </joint>
   <link name="tiago_dual/head_front_camera_depth_frame" />
   <joint name="tiago_dual/head_front_camera_depth_joint" type="fixed">
@@ -213,13 +213,13 @@
   <joint name="tiago_dual/head_front_camera_depth_optical_joint" type="fixed">
     <parent link="tiago_dual/head_front_camera_depth_frame" />
     <child link="tiago_dual/head_front_camera_depth_optical_frame" />
-    <origin xyz="0.0 -0.0 0.0" rpy="-1.570796 0.0 -1.570796" />
+    <origin xyz="0.0 0.0 0.0" rpy="-1.570796 0.0 -1.570796" />
   </joint>
   <link name="tiago_dual/head_front_camera_optical_frame" />
   <joint name="tiago_dual/head_front_camera_optical_joint" type="fixed">
     <parent link="tiago_dual/head_front_camera_link" />
     <child link="tiago_dual/head_front_camera_optical_frame" />
-    <origin xyz="0.0 0.0 0.0" rpy="-1.570796 0.0 -1.570796" />
+    <origin xyz="-0.0 0.0 0.0" rpy="-1.570796 0.0 -1.570796" />
   </joint>
   <link name="tiago_dual/arm_right_1_link">
     <visual>
@@ -415,7 +415,7 @@
   <joint name="tiago_dual/gripper_right_coupler_joint" type="fixed">
     <parent link="tiago_dual/arm_right_tool_link" />
     <child link="tiago_dual/gripper_right_coupler_link" />
-    <origin xyz="0.0 0.0 0.0" rpy="1.570796 0.0 1.570796" />
+    <origin xyz="0.0 0.0 -0.0" rpy="1.570796 -0.0 1.570796" />
   </joint>
   <link name="tiago_dual/gripper_right_base_link">
     <visual>
@@ -437,7 +437,7 @@
   <joint name="tiago_dual/gripper_right_base_joint" type="fixed">
     <parent link="tiago_dual/gripper_right_coupler_link" />
     <child link="tiago_dual/gripper_right_base_link" />
-    <origin xyz="-0.0 0.0 0.0312" rpy="0.0 0.0 0.0" />
+    <origin xyz="-0.0 -0.0 0.0312" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/gripper_right_right_inner_knuckle">
     <visual>
@@ -583,7 +583,7 @@
   <joint name="tiago_dual/gripper_right_right_outer_knuckle_joint_mimic" type="fixed">
     <parent link="tiago_dual/gripper_right_base_link" />
     <child link="tiago_dual/gripper_right_right_outer_knuckle_dummy_mimic_link" />
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+    <origin xyz="-0.0 -0.0 0.0" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/gripper_right_left_outer_knuckle">
     <visual>
@@ -675,73 +675,73 @@
   <joint name="tiago_dual/gripper_right_left_inner_finger_pad_joint" type="fixed">
     <parent link="tiago_dual/gripper_right_left_inner_finger" />
     <child link="tiago_dual/gripper_right_left_inner_finger_pad" />
-    <origin xyz="-0.0 -0.02202 0.03242" rpy="0.0 0.0 0.0" />
+    <origin xyz="0.0 -0.02202 0.03242" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/gripper_right_right_inner_knuckle_dummy_mimic_link" />
   <joint name="tiago_dual/gripper_right_right_inner_knuckle_joint_mimic" type="fixed">
     <parent link="tiago_dual/gripper_right_base_link" />
     <child link="tiago_dual/gripper_right_right_inner_knuckle_dummy_mimic_link" />
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+    <origin xyz="-0.0 -0.0 0.0" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/gripper_right_right_inner_finger_pad_dummy_mimic_link" />
   <joint name="tiago_dual/gripper_right_right_inner_finger_pad_joint_mimic" type="fixed">
     <parent link="tiago_dual/gripper_right_base_link" />
     <child link="tiago_dual/gripper_right_right_inner_finger_pad_dummy_mimic_link" />
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+    <origin xyz="-0.0 -0.0 0.0" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/gripper_right_right_inner_finger_dummy_mimic_link" />
   <joint name="tiago_dual/gripper_right_right_inner_finger_joint_mimic" type="fixed">
     <parent link="tiago_dual/gripper_right_base_link" />
     <child link="tiago_dual/gripper_right_right_inner_finger_dummy_mimic_link" />
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+    <origin xyz="-0.0 -0.0 0.0" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/gripper_right_right_outer_finger_dummy_mimic_link" />
   <joint name="tiago_dual/gripper_right_right_outer_finger_joint_mimic" type="fixed">
     <parent link="tiago_dual/gripper_right_base_link" />
     <child link="tiago_dual/gripper_right_right_outer_finger_dummy_mimic_link" />
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+    <origin xyz="-0.0 -0.0 0.0" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/gripper_right_left_inner_knuckle_dummy_mimic_link" />
   <joint name="tiago_dual/gripper_right_left_inner_knuckle_joint_mimic" type="fixed">
     <parent link="tiago_dual/gripper_right_base_link" />
     <child link="tiago_dual/gripper_right_left_inner_knuckle_dummy_mimic_link" />
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+    <origin xyz="-0.0 -0.0 0.0" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/gripper_right_left_inner_finger_pad_dummy_mimic_link" />
   <joint name="tiago_dual/gripper_right_left_inner_finger_pad_joint_mimic" type="fixed">
     <parent link="tiago_dual/gripper_right_base_link" />
     <child link="tiago_dual/gripper_right_left_inner_finger_pad_dummy_mimic_link" />
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+    <origin xyz="-0.0 -0.0 0.0" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/gripper_right_left_inner_finger_dummy_mimic_link" />
   <joint name="tiago_dual/gripper_right_left_inner_finger_joint_mimic" type="fixed">
     <parent link="tiago_dual/gripper_right_base_link" />
     <child link="tiago_dual/gripper_right_left_inner_finger_dummy_mimic_link" />
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+    <origin xyz="-0.0 -0.0 0.0" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/gripper_right_left_outer_finger_dummy_mimic_link" />
   <joint name="tiago_dual/gripper_right_left_outer_finger_joint_mimic" type="fixed">
     <parent link="tiago_dual/gripper_right_base_link" />
     <child link="tiago_dual/gripper_right_left_outer_finger_dummy_mimic_link" />
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+    <origin xyz="-0.0 -0.0 0.0" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/gripper_right_grasping_frame_Z" />
   <joint name="tiago_dual/gripper_right_grasping_frame_Z_joint" type="fixed">
     <parent link="tiago_dual/gripper_right_base_link" />
     <child link="tiago_dual/gripper_right_grasping_frame_Z" />
-    <origin xyz="0.0 0.0 0.11" rpy="0.0 0.0 0.0" />
+    <origin xyz="-0.0 0.0 0.11" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/gripper_right_grasping_frame_Y" />
   <joint name="tiago_dual/gripper_right_grasping_frame_Y_joint" type="fixed">
     <parent link="tiago_dual/gripper_right_base_link" />
     <child link="tiago_dual/gripper_right_grasping_frame_Y" />
-    <origin xyz="0.0 0.0 0.11" rpy="1.5708 0.0 0.0" />
+    <origin xyz="-0.0 0.0 0.11" rpy="1.5708 0.0 0.0" />
   </joint>
   <link name="tiago_dual/gripper_right_grasping_frame" />
   <joint name="tiago_dual/gripper_right_grasping_frame_joint" type="fixed">
     <parent link="tiago_dual/gripper_right_base_link" />
     <child link="tiago_dual/gripper_right_grasping_frame" />
-    <origin xyz="0.0 0.0 0.11" rpy="-3.141593 -1.570793 3.141593" />
+    <origin xyz="-0.0 0.0 0.11" rpy="3.141593 -1.570793 -3.141593" />
   </joint>
   <link name="tiago_dual/arm_left_1_link">
     <visual>
@@ -937,7 +937,7 @@
   <joint name="tiago_dual/gripper_left_coupler_joint" type="fixed">
     <parent link="tiago_dual/arm_left_tool_link" />
     <child link="tiago_dual/gripper_left_coupler_link" />
-    <origin xyz="0.0 0.0 0.0" rpy="1.570796 0.0 1.570796" />
+    <origin xyz="-0.0 -0.0 0.0" rpy="1.570796 0.0 1.570796" />
   </joint>
   <link name="tiago_dual/gripper_left_base_link">
     <visual>
@@ -959,7 +959,7 @@
   <joint name="tiago_dual/gripper_left_base_joint" type="fixed">
     <parent link="tiago_dual/gripper_left_coupler_link" />
     <child link="tiago_dual/gripper_left_base_link" />
-    <origin xyz="-0.0 0.0 0.0312" rpy="0.0 0.0 0.0" />
+    <origin xyz="0.0 0.0 0.0312" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/gripper_left_right_inner_knuckle">
     <visual>
@@ -1075,7 +1075,7 @@
   <joint name="tiago_dual/gripper_left_right_inner_finger_pad_joint" type="fixed">
     <parent link="tiago_dual/gripper_left_right_inner_finger" />
     <child link="tiago_dual/gripper_left_right_inner_finger_pad" />
-    <origin xyz="0.0 -0.02202 0.03242" rpy="0.0 0.0 0.0" />
+    <origin xyz="-0.0 -0.02202 0.03242" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/gripper_left_left_inner_knuckle">
     <visual>
@@ -1151,7 +1151,7 @@
   <joint name="tiago_dual/gripper_left_left_outer_finger_joint" type="fixed">
     <parent link="tiago_dual/gripper_left_left_outer_knuckle" />
     <child link="tiago_dual/gripper_left_left_outer_finger" />
-    <origin xyz="0.0 0.0315 -0.0041" rpy="0.0 0.0 0.0" />
+    <origin xyz="-0.0 0.0315 -0.0041" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/gripper_left_left_inner_finger">
     <visual>
@@ -1301,7 +1301,7 @@
   <joint name="tiago_dual/caster_back_left_2_joint" type="fixed">
     <parent link="tiago_dual/caster_back_left_1_link" />
     <child link="tiago_dual/caster_back_left_2_link" />
-    <origin xyz="-0.016 -0.0 -0.04" rpy="-1.570796 0.0 0.0" />
+    <origin xyz="-0.016 0.0 -0.04" rpy="-1.570796 0.0 0.0" />
   </joint>
   <link name="tiago_dual/caster_back_right_1_link">
     <visual>
@@ -1339,7 +1339,7 @@
   <joint name="tiago_dual/caster_back_right_2_joint" type="fixed">
     <parent link="tiago_dual/caster_back_right_1_link" />
     <child link="tiago_dual/caster_back_right_2_link" />
-    <origin xyz="-0.016 -0.0 -0.04" rpy="-1.570796 0.0 0.0" />
+    <origin xyz="-0.016 0.0 -0.04" rpy="-1.570796 0.0 0.0" />
   </joint>
   <link name="tiago_dual/caster_front_left_1_link">
     <visual>
@@ -1421,7 +1421,7 @@
   <joint name="tiago_dual/suspension_left_joint" type="fixed">
     <parent link="tiago_dual/base_link" />
     <child link="tiago_dual/suspension_left_link" />
-    <origin xyz="0.0 -0.0 0.0" rpy="0.0 0.0 0.0" />
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/wheel_left_link">
     <visual>
@@ -1450,7 +1450,7 @@
   <joint name="tiago_dual/suspension_right_joint" type="fixed">
     <parent link="tiago_dual/base_link" />
     <child link="tiago_dual/suspension_right_link" />
-    <origin xyz="0.0 -0.0 0.0" rpy="0.0 0.0 0.0" />
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/wheel_right_link">
     <visual>
@@ -1539,7 +1539,7 @@
   <joint name="tiago_dual/base_dock" type="fixed">
     <parent link="tiago_dual/base_link" />
     <child link="tiago_dual/base_dock_link" />
-    <origin xyz="0.2675 -0.0 0.061" rpy="0.0 0.0 0.0" />
+    <origin xyz="0.2675 0.0 0.061" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/base_mic_back_right_link" />
   <joint name="tiago_dual/base_mic_back_right_joint" type="fixed">
@@ -1595,7 +1595,7 @@
   <joint name="tiago_dual/base_sonar_02_joint" type="fixed">
     <parent link="tiago_dual/base_link" />
     <child link="tiago_dual/base_sonar_02_link" />
-    <origin xyz="-0.259 -0.0 0.173" rpy="0.0 0.0 3.141593" />
+    <origin xyz="-0.259 0.0 0.173" rpy="0.0 0.0 3.141593" />
   </joint>
   <link name="tiago_dual/base_sonar_03_link">
     <visual>
@@ -1633,12 +1633,12 @@
   <joint name="tiago_dual/base_laser_joint" type="fixed">
     <parent link="tiago_dual/base_link" />
     <child link="tiago_dual/base_laser_link" />
-    <origin xyz="0.202 -0.0 -0.004" rpy="0.0 0.0 0.0" />
+    <origin xyz="0.202 0.0 -0.004" rpy="0.0 0.0 0.0" />
   </joint>
   <link name="tiago_dual/base_imu_link" />
   <joint name="tiago_dual/base_imu_joint" type="fixed">
     <parent link="tiago_dual/base_link" />
     <child link="tiago_dual/base_imu_link" />
-    <origin xyz="0.10171 -0.0 0.11282" rpy="0.0 0.0 -1.570796" />
+    <origin xyz="0.10171 0.0 0.11282" rpy="0.0 0.0 -1.570796" />
   </joint>
 </robot>

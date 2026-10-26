@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<robot name="stretch_04284f6532c945f098f6ac3ea2eeda6e">
+<robot name="stretch_6679361b8bfc4e76b861deb96ed1f4cc">
   <link name="world_root" />
   <link name="stretch_description/base_link">
     <visual>
@@ -175,7 +175,7 @@
   <joint name="stretch_description/joint_head" type="fixed">
     <parent link="stretch_description/link_mast" />
     <child link="stretch_description/link_head" />
-    <origin xyz="-0.0 1.33 0.0" rpy="-1.570789 -1.570796 0.0" />
+    <origin xyz="0.0 1.33 -0.0" rpy="-1.570789 -1.570796 0.0" />
   </joint>
   <link name="stretch_description/link_head_pan">
     <visual>
@@ -263,7 +263,7 @@
   <joint name="stretch_description/camera_gyro_optical_joint" type="fixed">
     <parent link="stretch_description/camera_gyro_frame" />
     <child link="stretch_description/camera_gyro_optical_frame" />
-    <origin xyz="0.0 0.0 0.0" rpy="-1.570796 0.0 -1.570796" />
+    <origin xyz="-0.0 0.0 0.0" rpy="-1.570796 0.0 -1.570796" />
   </joint>
   <link name="stretch_description/camera_accel_frame" />
   <joint name="stretch_description/camera_accel_joint" type="fixed">
@@ -275,7 +275,7 @@
   <joint name="stretch_description/camera_accel_optical_joint" type="fixed">
     <parent link="stretch_description/camera_accel_frame" />
     <child link="stretch_description/camera_accel_optical_frame" />
-    <origin xyz="0.0 0.0 0.0" rpy="-1.570796 0.0 -1.570796" />
+    <origin xyz="-0.0 0.0 0.0" rpy="-1.570796 0.0 -1.570796" />
   </joint>
   <link name="stretch_description/camera_color_frame" />
   <joint name="stretch_description/camera_color_joint" type="fixed">
@@ -391,7 +391,7 @@
   <joint name="stretch_description/joint_arm_l4" type="fixed">
     <parent link="stretch_description/link_lift" />
     <child link="stretch_description/link_arm_l4" />
-    <origin xyz="-0.2547 0.0 0.0" rpy="1.5708 0.0 -1.5708" />
+    <origin xyz="-0.2547 0.0 -0.0" rpy="1.5708 0.0 -1.5708" />
   </joint>
   <link name="stretch_description/link_arm_l3">
     <visual>

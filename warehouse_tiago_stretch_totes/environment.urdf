@@ -27511,16 +27511,16 @@
     <child link="Equipment__FireSafetyCabinet" />
     <origin xyz="19.57 12.4 0.0" rpy="0.0 0.0 1.570796" />
   </joint>
-  <link name="e352aac8-5b24-4d7e-9bf5-365512cf710b/odom" />
-  <joint name="e352aac8-5b24-4d7e-9bf5-365512cf710b/map_T_odom" type="floating">
+  <link name="fddcc0dc-77fe-4358-8424-d76119505e90/odom" />
+  <joint name="fddcc0dc-77fe-4358-8424-d76119505e90/map_T_odom" type="floating">
     <parent link="map" />
-    <child link="e352aac8-5b24-4d7e-9bf5-365512cf710b/odom" />
+    <child link="fddcc0dc-77fe-4358-8424-d76119505e90/odom" />
     <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
   </joint>
-  <link name="6404d406-4935-4ad1-8639-137749d23c8c/odom" />
-  <joint name="6404d406-4935-4ad1-8639-137749d23c8c/map_T_odom" type="floating">
+  <link name="b0140898-e215-495d-b5ed-96815bdb0d90/odom" />
+  <joint name="b0140898-e215-495d-b5ed-96815bdb0d90/map_T_odom" type="floating">
     <parent link="map" />
-    <child link="6404d406-4935-4ad1-8639-137749d23c8c/odom" />
+    <child link="b0140898-e215-495d-b5ed-96815bdb0d90/odom" />
     <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
   </joint>
 </robot>
