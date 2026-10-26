@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="fr3">
+  <link name="FR3" />
+  <link name="base">
+    <visual>
+      <geometry>
+        <mesh filename="meshes/fr3/base.glb" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="fr3_link1">
+    <visual>
+      <geometry>
+        <mesh filename="meshes/fr3/fr3_link1.glb" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="fr3_link2">
+    <visual>
+      <geometry>
+        <mesh filename="meshes/fr3/fr3_link2.glb" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="fr3_link3">
+    <visual>
+      <geometry>
+        <mesh filename="meshes/fr3/fr3_link3.glb" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="fr3_link4">
+    <visual>
+      <geometry>
+        <mesh filename="meshes/fr3/fr3_link4.glb" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="fr3_link5">
+    <visual>
+      <geometry>
+        <mesh filename="meshes/fr3/fr3_link5.glb" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="fr3_link6">
+    <visual>
+      <geometry>
+        <mesh filename="meshes/fr3/fr3_link6.glb" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="fr3_link7">
+    <visual>
+      <geometry>
+        <mesh filename="meshes/fr3/fr3_link7.glb" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="GripperBody">
+    <visual>
+      <geometry>
+        <mesh filename="meshes/fr3/GripperBody.glb" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="FingerA">
+    <visual>
+      <geometry>
+        <mesh filename="meshes/fr3/FingerA.glb" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="FingerB">
+    <visual>
+      <geometry>
+        <mesh filename="meshes/fr3/FingerB.glb" />
+      </geometry>
+    </visual>
+  </link>
+  <joint name="root_joint" type="fixed">
+    <parent link="FR3" />
+    <child link="base" />
+    <origin xyz="1.66893005e-07 2.92062759e-07 -9.059906e-08" rpy="6.55651189e-07 2.08615954e-07 9.23872062e-07" />
+  </joint>
+  <joint name="fr3_joint1" type="revolute">
+    <parent link="base" />
+    <child link="fr3_link1" />
+    <origin xyz="-4.4408921e-16 0 0.333000004" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit effort="1000" velocity="1" lower="-2.90069988" upper="2.90069988" />
+  </joint>
+  <joint name="fr3_joint2" type="revolute">
+    <parent link="fr3_link1" />
+    <child link="fr3_link2" />
+    <origin xyz="-3.99975685e-09 7.00312546e-08 -5.96045866e-08" rpy="-1.57079663 2.38820042e-08 -6.21724894e-15" />
+    <axis xyz="0 0 1" />
+    <limit effort="1000" velocity="1" lower="-1.83610004" upper="1.83610004" />
+  </joint>
+  <joint name="fr3_joint3" type="revolute">
+    <parent link="fr3_link2" />
+    <child link="fr3_link3" />
+    <origin xyz="3.46944695e-17 -0.316000015 3.34943819e-08" rpy="1.57079626 -1.12003753e-07 1.19904087e-14" />
+    <axis xyz="0 0 1" />
+    <limit effort="1000" velocity="1" lower="-2.90069988" upper="2.90069988" />
+  </joint>
+  <joint name="fr3_joint4" type="revolute">
+    <parent link="fr3_link3" />
+    <child link="fr3_link4" />
+    <origin xyz="0.082499987 2.50986256e-08 -4.99851727e-08" rpy="1.5707964 1.17093169e-07 5.21804822e-15" />
+    <axis xyz="0 0 1" />
+    <limit effort="1000" velocity="1" lower="-3.07700008" upper="-0.116899997" />
+  </joint>
+  <joint name="fr3_joint5" type="revolute">
+    <parent link="fr3_link4" />
+    <child link="fr3_link5" />
+    <origin xyz="-0.08250007 0.384000008 1.79152717e-08" rpy="-1.57079615 -4.65087354e-07 -1.00475184e-13" />
+    <axis xyz="0 0 1" />
+    <limit effort="1000" velocity="1" lower="-2.8763" upper="2.8763" />
+  </joint>
+  <joint name="fr3_joint6" type="revolute">
+    <parent link="fr3_link5" />
+    <child link="fr3_link6" />
+    <origin xyz="2.24454884e-08 5.11393565e-08 -1.55673842e-07" rpy="1.57079657 -1.67498294e-07 -3.46389584e-14" />
+    <axis xyz="0 0 1" />
+    <limit effort="1000" velocity="1" lower="0.439800015" upper="4.62160022" />
+  </joint>
+  <joint name="fr3_joint7" type="revolute">
+    <parent link="fr3_link6" />
+    <child link="fr3_link7" />
+    <origin xyz="0.0879999427 -1.19221185e-07 5.96099246e-08" rpy="1.57079642 -4.73711282e-07 -3.01980663e-14" />
+    <axis xyz="0 0 1" />
+    <limit effort="1000" velocity="1" lower="-3.0507999" upper="3.0507999" />
+  </joint>
+  <joint name="GripperMount" type="fixed">
+    <parent link="fr3_link7" />
+    <child link="GripperBody" />
+    <origin xyz="-4.00251565e-08 4.47624167e-08 0.106999968" rpy="-5.59084972e-08 5.42305014e-08 -0.785398172" />
+  </joint>
+  <joint name="FingerAJoint" type="prismatic">
+    <parent link="GripperBody" />
+    <child link="FingerA" />
+    <origin xyz="2.22044605e-16 -5.55111512e-17 2.22044605e-16" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="1000" velocity="1" lower="-0.00600000005" upper="0" />
+  </joint>
+  <joint name="FingerBJoint" type="prismatic">
+    <parent link="GripperBody" />
+    <child link="FingerB" />
+    <origin xyz="2.22044605e-16 -5.55111512e-17 2.22044605e-16" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="1000" velocity="1" lower="0" upper="0.00600000005" />
+  </joint>
+</robot>

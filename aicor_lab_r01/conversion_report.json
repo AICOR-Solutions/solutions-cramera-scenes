@@ -1,0 +1,144 @@
+{
+ "source": "/home/vee/Documents/LabAutomationTwin/scenes/r01_demo.usda",
+ "converter": "1.0.0",
+ "readSeconds": 2.674,
+ "writeSeconds": 5.323,
+ "bundleBytes": 114844506,
+ "counts": {
+  "disabledJoints": 64,
+  "instanceProxies": 241,
+  "joints.continuous": 1,
+  "joints.fixed": 131,
+  "joints.prismatic": 27,
+  "joints.revolute": 21,
+  "lights": 46,
+  "links": 181,
+  "materials": 1058,
+  "meshes": 1695,
+  "prims": 18068,
+  "semanticPrims": 1016,
+  "triangles": 2303761
+ },
+ "skipped": {
+  "guide purpose": 660,
+  "invisible": 80
+ },
+ "skippedExamples": {
+  "guide purpose": [
+   "/World/Cell01/Architecture/Floor",
+   "/World/Cell01/Architecture/Enclosure_E01/Collision/Box001/Box",
+   "/World/Cell01/Architecture/Enclosure_E01/Collision/Box002/Box",
+   "/World/Cell01/Architecture/Enclosure_E01/Collision/Box003/Box",
+   "/World/Cell01/Architecture/Enclosure_E01/Collision/Box004/Box"
+  ],
+  "invisible": [
+   "/World/ExperimentalWorld/Plates/Plate_P17/Wells/A01/Physical/Organoid",
+   "/World/ExperimentalWorld/Plates/Plate_P17/Wells/A02/Physical/Organoid",
+   "/World/ExperimentalWorld/Plates/Plate_P17/Wells/A05/Physical/Organoid",
+   "/World/ExperimentalWorld/Plates/Plate_P17/Wells/A06/Physical/Organoid",
+   "/World/ExperimentalWorld/Plates/Plate_P17/Wells/A07/Physical/Organoid"
+  ]
+ },
+ "excluded": [],
+ "detached": [],
+ "articulations": [
+  {
+   "path": "/World/Cell01/Architecture/Enclosure_E01/Doors/D1_Front",
+   "movableJoints": [
+    "/World/Cell01/Architecture/Enclosure_E01/Doors/D1_Front/Joints/Hinge"
+   ]
+  },
+  {
+   "path": "/World/Cell01/Architecture/Enclosure_E01/Doors/D2_RearWest",
+   "movableJoints": [
+    "/World/Cell01/Architecture/Enclosure_E01/Doors/D2_RearWest/Joints/Hinge"
+   ]
+  },
+  {
+   "path": "/World/Cell01/Architecture/Enclosure_E01/Doors/D3_RearEast",
+   "movableJoints": [
+    "/World/Cell01/Architecture/Enclosure_E01/Doors/D3_RearEast/Joints/Hinge"
+   ]
+  },
+  {
+   "path": "/World/Cell01/Robots/R03_SampleAMR",
+   "movableJoints": [
+    "/World/Cell01/Robots/R03_SampleAMR/Joints/PlanarXJoint",
+    "/World/Cell01/Robots/R03_SampleAMR/Joints/PlanarYJoint",
+    "/World/Cell01/Robots/R03_SampleAMR/Joints/YawJoint",
+    "/World/Cell01/Robots/R03_SampleAMR/Joints/LidSlide"
+   ]
+  },
+  {
+   "path": "/World/Cell01/Stations/L09_PlateHotel",
+   "movableJoints": [
+    "/World/Cell01/Stations/L09_PlateHotel/Joints/GateSlide",
+    "/World/Cell01/Stations/L09_PlateHotel/Joints/ShuttleSlide",
+    "/World/Cell01/Stations/L09_PlateHotel/Joints/LiftSlide",
+    "/World/Cell01/Stations/L09_PlateHotel/Joints/ForkSlide",
+    "/World/Cell01/Stations/L09_PlateHotel/Joints/ServiceDoorHinge"
+   ]
+  },
+  {
+   "path": "/World/Cell01/Stations/L10_Incubator",
+   "movableJoints": [
+    "/World/Cell01/Stations/L10_Incubator/Joints/GateSlide",
+    "/World/Cell01/Stations/L10_Incubator/Joints/ShuttleSlide",
+    "/World/Cell01/Stations/L10_Incubator/Joints/LiftSlide",
+    "/World/Cell01/Stations/L10_Incubator/Joints/ForkSlide",
+    "/World/Cell01/Stations/L10_Incubator/Joints/ServiceDoorHinge"
+   ]
+  },
+  {
+   "path": "/World/Cell01/Stations/L12_LiquidHandler",
+   "movableJoints": [
+    "/World/Cell01/Stations/L12_LiquidHandler/Joints/GantryXSlide",
+    "/World/Cell01/Stations/L12_LiquidHandler/Joints/GantryYSlide",
+    "/World/Cell01/Stations/L12_LiquidHandler/Joints/ChannelZSlide"
+   ]
+  },
+  {
+   "path": "/World/Cell01/Stations/L17_BrightFieldImager",
+   "movableJoints": [
+    "/World/Cell01/Stations/L17_BrightFieldImager/Joints/GateSlide",
+    "/World/Cell01/Stations/L17_BrightFieldImager/Joints/StageY",
+    "/World/Cell01/Stations/L17_BrightFieldImager/Joints/StageX",
+    "/World/Cell01/Stations/L17_BrightFieldImager/Joints/FocusZ",
+    "/World/Cell01/Stations/L17_BrightFieldImager/Joints/TurretRotate"
+   ]
+  },
+  {
+   "path": "/World/Cell01/Stations/H4_Quarantine",
+   "movableJoints": [
+    "/World/Cell01/Stations/H4_Quarantine/Controls/DoorButton/button_joint",
+    "/World/Cell01/Stations/H4_Quarantine/Controls/KeySwitch/key_joint",
+    "/World/Cell01/Stations/H4_Quarantine/Joints/DoorHinge",
+    "/World/Cell01/Stations/H4_Quarantine/Joints/LatchSlide",
+    "/World/Cell01/Stations/H4_Quarantine/Joints/ShuttleSlide"
+   ]
+  },
+  {
+   "path": "/World/AICOR_Lab/Building/Doors/ST01_Sliding",
+   "movableJoints": [
+    "/World/AICOR_Lab/Building/Doors/ST01_Sliding/Joints/Slide"
+   ]
+  }
+ ],
+ "unmappedInputs": {},
+ "missingTextures": [],
+ "warnings": [
+  "/World/Cell01/Robots/R02_RailSystem/R02/CouplerLock: PhysicsJoint is written as a fixed joint"
+ ],
+ "animation": {
+  "source": "/home/vee/Documents/LabAutomationTwin/scenes/demo/r01_demo_trace.npz",
+  "frameCount": 3879,
+  "framesPerSecond": 30.0,
+  "largestBodyDistanceMillimetres": 0.0016,
+  "largestBodyAngleDegrees": 0.0003,
+  "beyondTolerance": [],
+  "objects": [
+   "Plate_DEMO"
+  ],
+  "untrackedBodies": []
+ }
+}

@@ -19,6 +19,12 @@
    "robot": "tiago",
    "environment": "Small Warehouse Twin",
    "task": "TIAGo: A08 + A09 -> packing station in-feed (B00, B01)"
+  },
+  {
+   "name": "aicor_lab_r01",
+   "robot": "fr3",
+   "environment": "AICOR Lab Automation Twin",
+   "task": "R01 demo cycle: L09 - HN - H4 - L09"
   }
  ]
 }
