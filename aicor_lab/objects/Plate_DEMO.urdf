@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="Plate_DEMO">
+  <link name="Plate_DEMO">
+    <visual>
+      <geometry>
+        <mesh filename="../meshes/objects/Plate_DEMO.glb" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="-1.37269138e-34 2.22044605e-16 0.00717499992" rpy="0 0 -1.23641048e-18" />
+      <geometry>
+        <box size="0.127759993 0.0854799971 0.0143499998" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

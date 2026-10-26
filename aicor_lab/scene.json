@@ -1,0 +1,184 @@
+{
+ "name": "aicor_lab",
+ "formatVersion": "1.0",
+ "framesPerSecond": 1.0,
+ "trajectory": "trajectory.json",
+ "models": [
+  {
+   "name": "environment",
+   "urdf": "environment.urdf",
+   "prefix": "",
+   "robot": false,
+   "links": 149,
+   "movableJoints": [
+    "AICOR_Lab__Building__Doors__ST01_Sliding__Joints__Slide",
+    "Cell01__Architecture__Enclosure_E01__Doors__D1_Front__Joints__Hinge",
+    "Cell01__Architecture__Enclosure_E01__Doors__D2_RearWest__Joints__Hinge",
+    "Cell01__Architecture__Enclosure_E01__Doors__D3_RearEast__Joints__Hinge",
+    "Cell01__Stations__H4_Quarantine__Controls__DoorButton__button_joint",
+    "Cell01__Stations__H4_Quarantine__Controls__KeySwitch__key_joint",
+    "Cell01__Stations__H4_Quarantine__Joints__DoorHinge",
+    "Cell01__Stations__H4_Quarantine__Joints__LatchSlide",
+    "Cell01__Stations__H4_Quarantine__Joints__ShuttleSlide",
+    "Cell01__Stations__L09_PlateHotel__Joints__GateSlide",
+    "Cell01__Stations__L09_PlateHotel__Joints__LiftSlide",
+    "Cell01__Stations__L09_PlateHotel__Joints__ServiceDoorHinge",
+    "Cell01__Stations__L09_PlateHotel__Joints__ShuttleSlide",
+    "Cell01__Stations__L10_Incubator__Joints__GateSlide",
+    "Cell01__Stations__L10_Incubator__Joints__LiftSlide",
+    "Cell01__Stations__L10_Incubator__Joints__ServiceDoorHinge",
+    "Cell01__Stations__L10_Incubator__Joints__ShuttleSlide",
+    "Cell01__Stations__L12_LiquidHandler__Joints__GantryXSlide",
+    "Cell01__Stations__L17_BrightFieldImager__Joints__FocusZ",
+    "Cell01__Stations__L17_BrightFieldImager__Joints__GateSlide",
+    "Cell01__Stations__L17_BrightFieldImager__Joints__StageY",
+    "Cell01__Tooling__AutomaticToolChanger__Tools__T01__Joints__FingerAJoint",
+    "Cell01__Tooling__AutomaticToolChanger__Tools__T01__Joints__FingerBJoint",
+    "Cell01__Stations__L09_PlateHotel__Joints__ForkSlide",
+    "Cell01__Stations__L10_Incubator__Joints__ForkSlide",
+    "Cell01__Stations__L12_LiquidHandler__Joints__GantryYSlide",
+    "Cell01__Stations__L17_BrightFieldImager__Joints__TurretRotate",
+    "Cell01__Stations__L17_BrightFieldImager__Joints__StageX",
+    "Cell01__Stations__L12_LiquidHandler__Joints__ChannelZSlide"
+   ],
+   "preserveMaterials": true,
+   "posedJoints": []
+  }
+ ],
+ "objects": [
+  {
+   "id": "Plate_DEMO",
+   "key": "Plate_DEMO",
+   "spawn": [
+    -1.279554,
+    1.224846,
+    1.2305,
+    0.0,
+    0.0,
+    -0.149363,
+    0.988782
+   ],
+   "color": "#ffffff",
+   "height": 0.0143,
+   "mesh": "meshes/objects/Plate_DEMO.glb",
+   "urdf": "objects/Plate_DEMO.urdf",
+   "preserveMaterials": true
+  },
+  {
+   "id": "Body",
+   "key": "Body",
+   "spawn": [
+    0.15,
+    1.2,
+    1.12,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "color": "#ffffff",
+   "height": 0.07,
+   "mesh": "meshes/objects/Body.glb",
+   "urdf": "objects/Body.urdf",
+   "preserveMaterials": true
+  },
+  {
+   "id": "Body_2",
+   "key": "Body_2",
+   "spawn": [
+    0.3,
+    1.2,
+    1.12,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "color": "#ffffff",
+   "height": 0.09,
+   "mesh": "meshes/objects/Body_2.glb",
+   "urdf": "objects/Body_2.urdf",
+   "preserveMaterials": true
+  },
+  {
+   "id": "Body_3",
+   "key": "Body_3",
+   "spawn": [
+    0.45,
+    1.2,
+    1.12,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "color": "#ffffff",
+   "height": 0.05,
+   "mesh": "meshes/objects/Body_3.glb",
+   "urdf": "objects/Body_3.urdf",
+   "preserveMaterials": true
+  },
+  {
+   "id": "Body_4",
+   "key": "Body_4",
+   "spawn": [
+    0.6,
+    1.2,
+    1.12,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "color": "#ffffff",
+   "height": 0.07,
+   "mesh": "meshes/objects/Body_4.glb",
+   "urdf": "objects/Body_4.urdf",
+   "preserveMaterials": true
+  }
+ ],
+ "segments": [],
+ "planTrees": [],
+ "actions": [],
+ "detectedEvents": [],
+ "missingAssets": [],
+ "task": "Lab hall and Cell 01 (environment)",
+ "environmentName": "AICOR Lab Automation Twin",
+ "camera": {
+  "position": [
+   -0.2,
+   -1.3,
+   1.75
+  ],
+  "target": [
+   -1.55,
+   0.45,
+   0.98
+  ],
+  "fov": 45.0,
+  "far": 246.42
+ },
+ "rendering": {
+  "exposure": 0.72,
+  "ambientOcclusion": false,
+  "groundPlane": false,
+  "shadowBounds": [
+   [
+    -9.5403,
+    -6.954,
+    0.002
+   ],
+   [
+    9.4639,
+    4.0455,
+    3.1913
+   ]
+  ],
+  "environment": "lighting.json"
+ },
+ "source": {
+  "usd": "/home/vee/Documents/LabAutomationTwin/cramera/cell01_environment.usda",
+  "converter": "1.0.0",
+  "layers": "bb7ffada95ac5dfc2df5b31d8f634684080e1af6fe7cf3b02c56fa1e5f27cf37"
+ }
+}

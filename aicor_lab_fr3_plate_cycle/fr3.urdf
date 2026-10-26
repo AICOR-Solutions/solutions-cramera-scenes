@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="fr3">
+  <link name="world_root" />
+  <link name="fr3/FR3" />
+  <joint name="world_root_to_fr3/FR3" type="fixed">
+    <parent link="world_root" />
+    <child link="fr3/FR3" />
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+  </joint>
+  <link name="fr3/base">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/base.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="fr3/base#0">
+        <color rgba="1.0 1.0 1.0 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/base.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="fr3/root_joint" type="fixed">
+    <parent link="fr3/FR3" />
+    <child link="fr3/base" />
+    <origin xyz="0.0 0.0 -0.0" rpy="1e-06 0.0 1e-06" />
+  </joint>
+  <link name="fr3/fr3_link1">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/fr3_link1.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="fr3/fr3_link1#0">
+        <color rgba="1.0 1.0 1.0 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/fr3_link1.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="fr3/fr3_joint1" type="revolute">
+    <parent link="fr3/base" />
+    <child link="fr3/fr3_link1" />
+    <origin xyz="-0.0 0.0 0.333" rpy="0.0 0.0 0.0" />
+    <axis xyz="0.0 0.0 1.0" />
+    <limit lower="-2.9007" upper="2.9007" velocity="1.0" effort="0.0" />
+  </joint>
+  <link name="fr3/fr3_link2">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/fr3_link2.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="fr3/fr3_link2#0">
+        <color rgba="1.0 1.0 1.0 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/fr3_link2.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="fr3/fr3_joint2" type="revolute">
+    <parent link="fr3/fr3_link1" />
+    <child link="fr3/fr3_link2" />
+    <origin xyz="-0.0 0.0 -0.0" rpy="-1.570797 0.0 -0.0" />
+    <axis xyz="0.0 0.0 1.0" />
+    <limit lower="-1.8361" upper="1.8361" velocity="1.0" effort="0.0" />
+  </joint>
+  <link name="fr3/fr3_link3">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/fr3_link3.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="fr3/fr3_link3#0">
+        <color rgba="1.0 1.0 1.0 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/fr3_link3.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="fr3/fr3_joint3" type="revolute">
+    <parent link="fr3/fr3_link2" />
+    <child link="fr3/fr3_link3" />
+    <origin xyz="0.0 -0.316 0.0" rpy="1.570796 -0.0 0.0" />
+    <axis xyz="0.0 0.0 1.0" />
+    <limit lower="-2.9007" upper="2.9007" velocity="1.0" effort="0.0" />
+  </joint>
+  <link name="fr3/fr3_link4">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/fr3_link4.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="fr3/fr3_link4#0">
+        <color rgba="1.0 1.0 1.0 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/fr3_link4.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="fr3/fr3_joint4" type="revolute">
+    <parent link="fr3/fr3_link3" />
+    <child link="fr3/fr3_link4" />
+    <origin xyz="0.0825 0.0 -0.0" rpy="1.570796 0.0 0.0" />
+    <axis xyz="0.0 0.0 1.0" />
+    <limit lower="-3.077" upper="-0.1169" velocity="1.0" effort="0.0" />
+  </joint>
+  <link name="fr3/fr3_link5">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/fr3_link5.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="fr3/fr3_link5#0">
+        <color rgba="1.0 1.0 1.0 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/fr3_link5.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="fr3/fr3_joint5" type="revolute">
+    <parent link="fr3/fr3_link4" />
+    <child link="fr3/fr3_link5" />
+    <origin xyz="-0.0825 0.384 0.0" rpy="-1.570796 -0.0 -0.0" />
+    <axis xyz="0.0 0.0 1.0" />
+    <limit lower="-2.8763" upper="2.8763" velocity="1.0" effort="0.0" />
+  </joint>
+  <link name="fr3/fr3_link6">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/fr3_link6.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="fr3/fr3_link6#0">
+        <color rgba="1.0 1.0 1.0 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/fr3_link6.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="fr3/fr3_joint6" type="revolute">
+    <parent link="fr3/fr3_link5" />
+    <child link="fr3/fr3_link6" />
+    <origin xyz="0.0 0.0 -0.0" rpy="1.570797 -0.0 -0.0" />
+    <axis xyz="0.0 0.0 1.0" />
+    <limit lower="0.4398" upper="4.6216" velocity="1.0" effort="0.0" />
+  </joint>
+  <link name="fr3/fr3_link7">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/fr3_link7.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="fr3/fr3_link7#0">
+        <color rgba="1.0 1.0 1.0 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/fr3_link7.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="fr3/fr3_joint7" type="revolute">
+    <parent link="fr3/fr3_link6" />
+    <child link="fr3/fr3_link7" />
+    <origin xyz="0.088 -0.0 0.0" rpy="1.570796 -0.0 -0.0" />
+    <axis xyz="0.0 0.0 1.0" />
+    <limit lower="-3.0508" upper="3.0508" velocity="1.0" effort="0.0" />
+  </joint>
+  <link name="fr3/GripperBody">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/GripperBody.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="fr3/GripperBody#0">
+        <color rgba="1.0 1.0 1.0 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/GripperBody.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="fr3/GripperMount" type="fixed">
+    <parent link="fr3/fr3_link7" />
+    <child link="fr3/GripperBody" />
+    <origin xyz="-0.0 0.0 0.107" rpy="-0.0 0.0 -0.785398" />
+  </joint>
+  <link name="fr3/plate_tool_frame" />
+  <joint name="fr3/plate_tool_joint" type="fixed">
+    <parent link="fr3/GripperBody" />
+    <child link="fr3/plate_tool_frame" />
+    <origin xyz="-0.0 -0.0 0.171" rpy="0.0 0.0 0.0" />
+  </joint>
+  <link name="fr3/FingerB">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/FingerB.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="fr3/FingerB#0">
+        <color rgba="1.0 1.0 1.0 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/FingerB.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="fr3/FingerBJoint" type="prismatic">
+    <parent link="fr3/GripperBody" />
+    <child link="fr3/FingerB" />
+    <origin xyz="0.0 -0.0 0.0" rpy="0.0 0.0 0.0" />
+    <axis xyz="0.0 1.0 0.0" />
+    <limit lower="0.0" upper="0.006" velocity="1.0" effort="0.0" />
+  </joint>
+  <link name="fr3/FingerA">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/FingerA.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+      <material name="fr3/FingerA#0">
+        <color rgba="1.0 1.0 1.0 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+      <geometry>
+        <mesh filename="meshes/recording/meshes-a05c71d2/FingerA.glb" scale="1.0 1.0 1.0" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="fr3/FingerAJoint" type="prismatic">
+    <parent link="fr3/GripperBody" />
+    <child link="fr3/FingerA" />
+    <origin xyz="0.0 -0.0 0.0" rpy="0.0 0.0 0.0" />
+    <axis xyz="0.0 1.0 0.0" />
+    <limit lower="-0.006" upper="0.0" velocity="1.0" effort="0.0" />
+  </joint>
+</robot>

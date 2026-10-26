@@ -25,6 +25,18 @@
    "robot": "fr3",
    "environment": "AICOR Lab Automation Twin",
    "task": "R01 demo cycle: L09 - HN - H4 - L09"
+  },
+  {
+   "name": "aicor_lab",
+   "robot": "",
+   "environment": "AICOR Lab Automation Twin",
+   "task": "Lab hall and Cell 01 (environment)"
+  },
+  {
+   "name": "aicor_lab_fr3_plate_cycle",
+   "robot": "fr3",
+   "environment": "AICOR Lab Automation Twin",
+   "task": "R01 demo cycle (CRAM): L09 - HN - H4 - L09"
   }
  ]
 }

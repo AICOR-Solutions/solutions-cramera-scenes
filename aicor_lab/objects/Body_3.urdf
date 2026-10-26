@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="Body_3">
+  <link name="Body_3">
+    <visual>
+      <geometry>
+        <mesh filename="../meshes/objects/Body_3.glb" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.006" rpy="0 0 0" />
+      <geometry>
+        <box size="0.063000001 0.063000001 0.0120000001" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0.016" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0900000036 0.0700000003 0.00800000038" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0.04" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0399999991 0.0399999991 0.0399999991" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0.085" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0120000001 0.0120000001 0.0500000007" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0.115" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0299999993 0.0299999993 0.00999999978" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
